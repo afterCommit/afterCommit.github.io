@@ -1,7 +1,7 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Markdown Example               # 标题 
-subtitle:   Hello World, Hello Blog #副标题
+title:      怎么写markdowne               # 标题
+subtitle:   新生儿的第一句话,Hello World #副标题
 date:       2019-05-13              # 时间
 author:     Zen                      # 作者
 header-img: img/post-bg-2015.jpg    #这篇文章标题背景图片
@@ -10,10 +10,7 @@ tags:                               #标签
     - 测试
 ---
 
-## Hey
->这是我的第一篇博客。
 
-怎么写markdown
 # 这是一级标题
 ## 这是二级标题
 ### 这是三级标题

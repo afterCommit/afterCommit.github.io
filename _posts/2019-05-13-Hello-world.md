@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      怎么写markdowne               # 标题
+title:      怎么写markdown              # 标题
 subtitle:   副标题好难想 #副标题
 date:       2019-05-13              # 时间
 author:     Zen                      # 作者

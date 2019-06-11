@@ -4,7 +4,7 @@ title:      在Win10的Linux子系统里查询天气               # 标题
 subtitle:    这是一个人人手机不离手的时代，她要回你信息早就回了。你苦苦等待一个答案，殊不知，不回复已经是答案了———来自《鲁迅没说过的心里话》  #副标题
 date:       2019-06-10 08:00:00              # 时间
 author:     Zen                      # 作者
-header-img: img/pet/supremelysab-787607-unsplash.jpg   #这篇文章标题背景图片
+header-img: img/photo/jiuzhaigou.webp   #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
     - 技巧

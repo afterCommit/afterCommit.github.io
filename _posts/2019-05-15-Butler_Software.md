@@ -4,7 +4,7 @@ title:      其实，你真的不用什么“管家软件”               # 标
 subtitle:   横看成岭侧成峰,洛伦兹力不做功 #副标题
 date:       2019-05-13              # 时间
 author:     Zen                      # 作者
-header-img: img/pet/supremelysab-787607-unsplash.jpg   #这篇文章标题背景图片
+header-img: img/pet/supremelysab-787607-unsplash.webp   #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
     - 常识

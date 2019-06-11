@@ -4,7 +4,7 @@ title:      电脑城买笔记本注意事项(待续)                # 标题
 subtitle:   一朝被蛇咬，处处闻啼鸟  #副标题
 date:       2019-05-28              # 时间
 author:     Zen                      # 作者
-header-img: img/pet/supremelysab-787607-unsplash.jpg   #这篇文章标题背景图片
+header-img: img/pet/supremelysab-787607-unsplash.webp   #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
     - 斗智斗勇

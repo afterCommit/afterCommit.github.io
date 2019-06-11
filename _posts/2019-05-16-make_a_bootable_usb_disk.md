@@ -4,7 +4,7 @@ title:      用Rufus不费脑制作启动盘               # 标题
 subtitle:   瀚海阑干百丈冰,酸脱羟基醇脱氢  #副标题
 date:       2019-05-16              # 时间
 author:     Zen                      # 作者
-header-img: img/pet/supremelysab-787607-unsplash.jpg   #这篇文章标题背景图片
+header-img: img/pet/supremelysab-787607-unsplash.webp   #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
     - 操作系统

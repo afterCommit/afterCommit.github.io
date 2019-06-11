@@ -4,7 +4,7 @@ title:      定制安装office2016               # 标题
 subtitle:    熬夜真的很伤身体，所以建议通宵  #副标题
 date:       2019-06-06 11:42:00              # 时间
 author:     Zen                      # 作者
-header-img: img/pet/supremelysab-787607-unsplash.jpg   #这篇文章标题背景图片
+header-img: img/pet/supremelysab-787607-unsplash.webp   #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
     - 常识

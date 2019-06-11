@@ -4,7 +4,7 @@ title:      带你认清所谓优化、内存整理、注册表清理备份还�
 subtitle:   垂死病中惊坐起,笑问客从何处来 #副标题
 date:       2019-05-13              # 时间
 author:     Zen                      # 作者
-header-img: img/pet/supremelysab-787607-unsplash.jpg   #这篇文章标题背景图片
+header-img: img/pet/supremelysab-787607-unsplash.webp   #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
     - 常识

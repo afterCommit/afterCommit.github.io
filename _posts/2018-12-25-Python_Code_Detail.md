@@ -5,7 +5,7 @@ subtitle:   别抄，等我答辩过了再说  #副标题
 date:       2018-12-25              # 时间
 author:     Zen                      # 作者
 header-img: img/pet/black.webp   #这篇文章标题背景图片
-catalog: true                       # 是否归档
+catalog: False                       # 是否归档
 tags:                               #标签
     - 论文
 ---

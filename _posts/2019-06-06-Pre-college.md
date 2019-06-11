@@ -5,7 +5,7 @@ subtitle:    热的柠檬水可以救你一辈子，经常备一杯，危险时�
 date:       2019-06-06 11:43:00              # 时间
 author:     Zen                      # 作者
 header-img: img/pet/supremelysab-787607-unsplash.webp   #这篇文章标题背景图片
-catalog: true                       # 是否归档
+catalog: False                       # 是否归档
 tags:                               #标签
     - 斗智斗勇
 ---

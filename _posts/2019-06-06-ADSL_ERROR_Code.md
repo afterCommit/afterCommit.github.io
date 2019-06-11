@@ -5,7 +5,7 @@ subtitle:   不要吃鸡屁股，含有致癌物，而且鸡从来不擦屁股 #
 date:       2019-06-06 11:44:00              # 时间
 author:     Zen                      # 作者
 header-img: img/post-bg-2015.jpg    #这篇文章标题背景图片
-catalog: true                       # 是否归档
+catalog: False                       # 是否归档
 tags:                               #标签
     - 常识
 ---

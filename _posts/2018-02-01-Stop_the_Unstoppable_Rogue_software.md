@@ -5,7 +5,7 @@ subtitle:   红酥手，黄縢酒，两个黄鹂鸣翠柳 #副标题
 date:       2018-02-01              # 时间
 author:     Zen                      # 作者
 header-img: img/post-bg-2015.jpg    #这篇文章标题背景图片
-catalog: true                       # 是否归档
+catalog: False                       # 是否归档
 tags:                               #标签
     - 流氓软件
 ---

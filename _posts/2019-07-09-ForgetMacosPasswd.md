@@ -15,7 +15,7 @@ tags:                               #标签
 ----
 
 # 使用Apple ID重设密码（已开启允许）
-很像利用Microsoft账户重置PIN码，这是小编个人认为最理想的方式了，方便而安全。
+很像利用Microsoft账户重置PIN码，这是个人认为最理想的方式了，方便而安全。
 使用该方式的前提是用户已经登录Apple ID/iCloud账户，且已经在“系统偏好设置→用户与群组”中，开启“允许用户使用Apple ID重设密码”。
 
 ![1](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/macOSpasswd/1.png)

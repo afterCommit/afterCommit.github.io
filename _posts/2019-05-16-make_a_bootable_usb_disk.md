@@ -13,27 +13,27 @@ tags:                               #标签
 
 ### 在浏览器上搜索Rufus，如果用Google，第一个搜索结果就是，其它搜索引擎就不一定了
 
-![1](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Make_Bootable_USB/搜索Rufus.webp)
+![1](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Make_Bootable_USB/1.webp)
 
 ### 进入官网，这个官网外观很特别，外观不像的网站就是你找错了
 
-![2](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Make_Bootable_USB/进入Rufus官网.webp)
+![2](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Make_Bootable_USB/2.webp)
 
 ### 找到下载的位置，前两个都可以，没啥区别
 
-![3](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Make_Bootable_USB/下载Rufus.webp)
+![3](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Make_Bootable_USB/3.webp)
 
 ### 下载完了直接双击打开就能用
 
-![4](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Make_Bootable_USB/绿色版直接打开.webp)
+![4](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Make_Bootable_USB/4.webp)
 
 ### 如果是首次安装运行的话，会询问你是否联网更新，选否就行，大家都懂
 
-![5](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Make_Bootable_USB/选否就可以了.webp)
+![5](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Make_Bootable_USB/5.webp)
 
 ### 重点来了
 
-![6](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Make_Bootable_USB/对应关系.webp)
+![6](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Make_Bootable_USB/6.webp)
 
 **设备** 选择你的U盘/内存卡，总之选择你要制作为系统盘的磁盘
 
@@ -52,6 +52,6 @@ Legacy|MBR|BIOS(或UEFI-CSM)
 
 ### 制作成功
 
-![7](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Make_Bootable_USB/制作成功.webp)
+![7](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Make_Bootable_USB/7.webp)
 
 看似七步，实际上手动操作的时间加起来也就喝口咖啡的时间。选择Rufus的另一个原因就是它可以在你安装小众Linux发行版的时候自动下载引导文件，不过既然你都会安装Linux了，这软件对你来说就太小儿科了

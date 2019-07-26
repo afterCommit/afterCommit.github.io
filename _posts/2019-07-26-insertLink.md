@@ -18,3 +18,7 @@ tags:                               #标签
 
 
 <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=d93d93d9ef6283606079a3f2831ae195f0950ccb275a18b222dd221cdf5a4e33"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="我们的讨论群" title="win-dou-si"></a>
+
+----
+
+<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=578779391&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:578779391:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>

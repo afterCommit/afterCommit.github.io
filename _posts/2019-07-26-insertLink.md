@@ -9,5 +9,12 @@ catalog: False                       # 是否归档
 tags:                               #标签
     - 测试
 ---
+----
+
 
 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2::51" alt="想和我促膝长谈?" title="想和我促膝长谈?"/></a>
+
+----
+
+
+<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=d93d93d9ef6283606079a3f2831ae195f0950ccb275a18b222dd221cdf5a4e33"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="我们的讨论群" title="win-dou-si"></a>

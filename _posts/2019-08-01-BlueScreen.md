@@ -65,4 +65,10 @@ tags:                               #标签
 
  ----
 
+ 插播一条vlog
+
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/NaAFEBbuuD8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+----
+
  待续

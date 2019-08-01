@@ -46,8 +46,11 @@ tags:                               #标签
   **解决方法**
 
     1. 无脑
+
     重装一个纯净的原版系统,方法看我之前的博文,然后远离流氓软件
+
     2. 有脑
+    
     在安全模式(win7)RE环境(win10)删掉
 
     `C:\WINDOWS\system32\drivers\ bootsafe64_ev.sys`

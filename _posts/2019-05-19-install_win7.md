@@ -42,6 +42,3 @@ tags:                               #标签
 如果你还抱怨为什么我电脑上和你显示的不一样的话，那么恭喜你，你是填鸭式教育的成果，我猜接下来你要问的问题就像你在网吧问网管:'我的电脑屏幕上为什么比别人少了一个快捷方式？你是不是看不起我'之类的，学习的意义不在于你学到了什么，而是学会如何学习
 
 如果你还是没懂我什么意思的话，你赢了
-![4](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/installWindows7/4.webp)
-
-如果你认为钱可以解决的话

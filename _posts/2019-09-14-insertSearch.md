@@ -10,8 +10,7 @@ tags:                               #标签
     - 测试
 ---
 <!--baidu-->
-<div align=”center”>
-<form action="http://www.baidu.com/s">
+<form  align="center" action="http://www.baidu.com/s">
 <input type="text" name="wd" id="kw"/>
 <input type="submit" value="Baidu" />
 </form>
@@ -19,7 +18,7 @@ tags:                               #标签
 
 <!--google-->
 
-<form action="http://www.google.com/search" method="get">
+<form action="http://www.google.com/search"  align="center" method="get">
 <input type="text" name="q" size="20" maxlength="255" value="" />
 <input type="submit" name="btnG" value="Google" />
 </form>

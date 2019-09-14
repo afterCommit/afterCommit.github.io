@@ -10,7 +10,7 @@ tags:                               #标签
     - 测试
 ---
 <!--baidu-->
-<div>
+<div align=”center”>
 <form action="http://www.baidu.com/s">
 <input type="text" name="wd" id="kw"/>
 <input type="submit" value="Baidu" />

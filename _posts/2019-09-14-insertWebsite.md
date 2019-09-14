@@ -12,5 +12,5 @@ tags:                               #标签
 
 ----
 
-<iframe src="https://play.golang.org" name="golang" scrolling="auto" width="100%" height="100%">   
+<iframe src="https://play.golang.org" name="golang" align=”center” scrolling="auto" width="100%" height="100%">   
 </iframe>

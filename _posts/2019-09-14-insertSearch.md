@@ -22,4 +22,3 @@ tags:                               #标签
 <input type="text" name="q" size="20" maxlength="255" value="" />
 <input type="submit" name="btnG" value="Google" />
 </form>
-</div>

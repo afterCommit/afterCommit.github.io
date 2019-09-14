@@ -20,4 +20,4 @@ tags:                               #标签
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wvatGNxNWV0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<video class="mudu-video" preload="auto" webkit-playsinline="true" playsinline="" x-webkit-airplay="allow" src="blob:https://mudu.tv/1458e7eb-1994-4d32-acbf-20661948e27e" style="object-fit: contain;"></video> 
+<video class="mudu-video" preload="auto" webkit-playsinline="true" playsinline="" x-webkit-airplay="allow" src="blob:https://mudu.tv/1458e7eb-1994-4d32-acbf-20661948e27e" style="object-fit: contain;"></video>

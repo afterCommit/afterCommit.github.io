@@ -25,25 +25,7 @@ tags:                               #标签
 </form>
 </div>
 
-<!--google search-->
-<div>
-<FORM method="GET" action="http://www.google.com/search">  
-<input type="hidden" value="GB2312">  
-<input type="hidden" value="GB2312">  
-<INPUT TYPE="hidden" VALUE="zh-CN">
-<div style="float:left">  
-<IMG SRC="http://www.google.com/logos/Logo_40wht.gif"　border="0" ALT="Google" height="20px">
-</div>
-<div style="float:left">
-<INPUT TYPE="text" name="q" size="18" maxlength="255"  value="">
-<INPUT type="submit" name="btnG" VALUE="Google搜索">  
-</div><br><br>
-<div>
-<input type="radio" name="sitesearch" value="这里输入你的网站地址" checked>全球搜索  
-<input type="radio" name="sitesearch" value="" > 本站搜索
-</div>
-</FORM>
-</div>
+
 
 <!--baidu search-->
 <div>

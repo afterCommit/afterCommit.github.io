@@ -100,7 +100,7 @@ service-worker: true
 friends: [
     {
         title: "麦穗",
-        href: "https://blog.csdn.net/maiduiyizu"
+        href: "https://blog.csdn.net/maiduiyizu",
         title: "随意吧",
         href: "https://space.bilibili.com/219556059?share_medium=android&share_source=copy_link&bbid=32E07DD1-3A2F-4A5F-B24F-7FE3F487420916815infoc&ts=1568802961609"
     }

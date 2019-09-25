@@ -13,25 +13,29 @@ tags:                               #标签
 
 
 开始跟踪新文件/把已跟踪的文件放到暂存区
- 
+
 `git add main.go`
 
 提交修改到本地
- 
+
 `git commit`
- 
+
 推送提交的修改到远程
- 
+
 `git push git@url.git gethistory_api`
- 
+
 克隆现有代码库
- 
+
 `git clone git@url.git`
- 
+
 可选指定文件夹名
- 
+
 `git clone git@url.git dirName`
- 
+
 查看文件状态
 
 `git status`
+
+查看当前频道
+
+`git branch -a`

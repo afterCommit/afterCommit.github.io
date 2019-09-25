@@ -1,4 +1,14 @@
-
+---
+layout:     post                    # 使用的布局（不需要改）
+title:      hello world!               # 标题
+subtitle:   老夫聊发少年狂，治肾亏，不含糖 #副标题
+date:       2019-05-13              # 时间
+author:     Zen                      # 作者
+header-img: img/post-bg-2015.jpg    #这篇文章标题背景图片
+catalog: False                       # 是否归档
+tags:                               #标签
+    - 测试
+---
 
 
 # 这是一级标题

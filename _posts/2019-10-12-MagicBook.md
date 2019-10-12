@@ -1,7 +1,7 @@
 ---
 layout:     post                    # 使用的布局(不需要改）
-title:      科技尝鲜版装~~B~~机攻略,适用于预装Linux系统的魔法书or美腿书             # 标题
-subtitle:   装系统觉得难,我不要你觉得,我要我觉得 #副标题
+title:      投入阿三怀抱!适用于预装Linux系统的魔法书or美腿书             # 标题
+subtitle:   如果觉得装系统难,我不要你觉得,我要我觉得 #副标题
 date:       2019-10-12 00:00:00 GMT+0800             # 时间
 author:     Zen                 # 作者
 header-img: img/photo/jiuzhaigou.webp    #这篇文章标题背景图片
@@ -10,7 +10,9 @@ tags:                               #标签
     -操作系统
 ---
 
-文字后补
+科技尝鲜版装 ~~B~~ 机攻略
+
+----
 
 
 ![包装](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/MagicBook/包装.jpg)

@@ -7,7 +7,7 @@ author:     Zen                 # 作者
 header-img: img/photo/jiuzhaigou.webp    #这篇文章标题背景图片
 catalog: True                       # 是否归档
 tags:                               #标签
-    -操作系统
+    - 操作系统
 ---
 首先来欣赏一下"别人家的电脑"
 

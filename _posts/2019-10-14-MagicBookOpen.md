@@ -10,9 +10,9 @@ tags:                               #标签
     -操作系统
 ---
 首先来欣赏一下"别人家的电脑"
-<video width="800" height="">
-    <source src="(https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/MagicBook/open.mp4)" type="video/mp4"></source>
-</video>
+
+[点击查看,等待大佬帮忙外链](https://pan.baidu.com/s/1UdA7btBkSAEYvznlfYTWvQ)
+
 
 科技尝鲜版魔法书是真香
 

@@ -23,10 +23,12 @@ tags:                               #标签
 
 1. 下载系统镜像
     鉴于有些东西讲起来太费口舌,我还是直接把下载链接发出来吧
+
 |版本|下载链接|
 |:---:|:---:|
 |64Bit|[8rzd](https://pan.baidu.com/s/13kSS4wzYLF6EdOY7mXp-9wp)|
 |32Bit|[dqxg](https://pan.baidu.com/s/1K_uwsv9qGJrrbYxKhmRICA)|
+
 2. 制作系统启动U盘
     方法在我的[另一篇博客](https://zhangyiming748.github.io/2019/05/16/make_a_bootable_usb_disk/)
 3. 安装Windows 系统

@@ -9,7 +9,12 @@ catalog: False                     # 是否归档
 tags:                               #标签
     - 常识
 ---
-ty
+----
+
+数据库速查
+
+----
+
 **启动MySQL**
 
 `net start mysql`

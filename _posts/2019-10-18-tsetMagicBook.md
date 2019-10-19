@@ -9,9 +9,13 @@ catalog: True                       # 是否归档
 tags:                               #标签
     - 杂谈
 ---
+----
+
 魔法书的学名是 MagicBook Pro
 
 买的是R7 8+512 deepin 版
+
+----
 
 使用了大概三天
 

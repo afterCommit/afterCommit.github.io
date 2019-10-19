@@ -9,6 +9,13 @@ catalog: True                       # 是否归档
 tags:                               #标签
     - 操作系统
 ---
+
+----
+
+仅仅是开箱
+
+----
+
 首先来欣赏一下"别人家的电脑"
 
 [点击查看,等待大佬帮忙外链](https://pan.baidu.com/s/1UdA7btBkSAEYvznlfYTWvQ)

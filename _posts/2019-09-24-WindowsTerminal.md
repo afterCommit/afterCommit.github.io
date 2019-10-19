@@ -9,8 +9,12 @@ catalog: False                       # 是否归档
 tags:                               #标签
     - 常识
 ---
+----
 
 WindowsTerminal的配置文件在
+
+----
+
 `%userprofile%\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState\profiles.json`
 
 ----

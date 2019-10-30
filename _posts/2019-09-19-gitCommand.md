@@ -39,3 +39,7 @@ tags:                               #标签
 查看当前频道
 
 `git branch -a`
+
+克隆指定分支的代码库
+
+`git clone -b <branchName> git@url.git`

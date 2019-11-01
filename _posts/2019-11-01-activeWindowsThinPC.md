@@ -18,5 +18,6 @@ tags:                               #标签
 5. 输入命令`slmgr.vbs /ilc c:\Security-SPP-Component-SKU-Embedded-VLBA-ul-oob.xrm-ms`出现对话框后点`OK`
 6. 输入命令`slmgr.vbs /ipk XGY72-BRBBT-FF8MH-2GG8H-W7KCW`出现对话框后点`OK`
 7. 输入命令`slmgr.vbs /xpr`出现对话框后点`OK`激活成功
+
 ----
 打完收工

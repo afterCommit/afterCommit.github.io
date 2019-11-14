@@ -14,3 +14,11 @@ tags:                               #标签
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eiCIUzUUcHQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 不知道是我水平提高了还是Taylor说的比较标准,我居然听懂了.台下应该也都是985211的996光头程序员吧,看现场应该是都听懂了
+
+## Hanazawa Kana 恋爱循环
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vBp1EdNriMo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 罗志祥 精舞门
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8v4kWYmAs0Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

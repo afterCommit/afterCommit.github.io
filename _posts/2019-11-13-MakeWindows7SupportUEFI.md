@@ -24,3 +24,40 @@ tags:                               #标签
 路径`%SystemRoot%\boot`
 4. 将修改过的ISO文件[制作为启动盘](https://zhangyiming748.github.io/2019/05/16/make_a_bootable_usb_disk/)
 进入安装界面[正常安装](https://zhangyiming748.github.io/2019/05/20/install_win7/)
+
+----
+以下是详细过程
+
+Windows8原生支持UEFI,没问题.Windows7不一样,如果是U盘或移动硬盘安装,需要添加UEFI支持文件,否则不能以UEFI方式启动.
+
+Windows7添加UEFI支持文件的方法:从Windows8的安装文件中提取`Bootmgr.efi`文件，重命名为`BOOTX64.efi`拷贝到win7安装文件的`\EFI\Boot\`下,没有BOOT文件夹新建一个`Bootmgr.efi`也可以从已经安装好的Win8/10系统获得,路径`C:\Windows\boot`
+
+进入安装界面和正常安装相同
+
+按`shift+F10`打开命令提示符
+
+把MBR磁盘转换为GPT磁盘
+
+键入
+
+`diskpart` 打开diskpart工具
+
+`list disk`列出系统拥有的磁盘
+
+`select disk 0`选择目标磁盘选择0号磁盘(请根据磁盘大小,自行判断你的目标磁盘)
+
+`clean`清空目标磁盘
+
+`convert gpt`转换为GPT格式
+
+`list partition`列出磁盘上的分区,因为我们刚转换成GPT格式,因此分区为空
+
+`create partition efi size=200`建立EFI分区
+
+`create partition msr size=128`建立MSR分区
+
+`create partition primary size=102400`建立主分区,该分区用来安装win7 X64
+
+`list partition`列出磁盘上的分区,检查一下是否建立好了分区,好了就关掉CMD
+
+这时返回到了选择分区的界面，点刷新后，选择刚才那个主分区,不再赘述.

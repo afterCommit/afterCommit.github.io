@@ -84,7 +84,7 @@ tags:                               #标签
 |集成蓝牙|是|是|
 |主板板型|M.2 2230, M.2 1216|M.2 2230, M.2 1216|
 |封装大小|22mm x 30mm x 2.4mm, 12mm x 16mm x 1.65mm|22mm x 30mm x 2.4mm, 12mm x 16mm x 1.57mm|
-|系统接口类型|Wi-Fi(PCIe), BT(USB)|M.2: CNVio|
+|系统接口类型|<font color="#FF0000">Wi-Fi(PCIe), BT(USB)</font>|<font color="#FF0000">M.2: CNVio</font>|
 
 其中系统接口类型的差异让我看的夜不能寐
 

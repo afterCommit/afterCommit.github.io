@@ -53,3 +53,43 @@ tags:                               #标签
 东西已经在路上了
 
 到货之后找个黄道吉日就直接换了
+
+----
+
+插播
+
+刚才接到了华为客服中心的电话
+
+官方确认是Intel-AC9560
+
+突然心里一沉
+
+我买的是AX200
+
+看下对比
+
+||Intel® Wi-Fi 6 AX200 Module|Intel® Wireless-AC 9560|
+|:---:|:---:|:---:|
+|状态|Launched|Launched|
+|发行日期 |Q2'19|Q4'17|
+|重量（克）|2.8|2.8|
+|操作温度范围|0°C to 80°C|0°C to 80°C|
+|支持的操作系统|Windows 10, 64-bit*, Linux*, Chrome OS*|Windows 10, 64-bit*, Linux*, Chrome OS*|
+|天线|2x2|2x2|
+|TX/RX 流|2x2|2x2|
+|频带|2.4Ghz, 5Ghz (160Mhz)|2.4Ghz, 5Ghz (160Mhz)|
+|最高速度|2.4Gbps|1.73Gbps|
+|Wi-Fi CERTIFIED*|WiFi 6 (802.11ax)|802.11ac|
+|兼容性|FIPS, FISMA|FIPS, FISMA|
+|集成蓝牙|是|是|
+|主板板型|M.2 2230, M.2 1216|M.2 2230, M.2 1216|
+|封装大小|22mm x 30mm x 2.4mm, 12mm x 16mm x 1.65mm|22mm x 30mm x 2.4mm, 12mm x 16mm x 1.57mm|
+|系统接口类型|Wi-Fi(PCIe), BT(USB)|M.2: CNVio|
+
+其中系统接口类型的差异让我看的夜不能寐
+
+常识告诉我,PCIE通道的硬盘通常很贵,接口也很稀有,我买的电脑预装了廉价的小螃蟹芯片会是PCIE通道的吗?一切只有到货之后才知道,现在只能听天由命了
+
+----
+
+换下来的网卡不要扔,裹上鸡蛋液,粘上面包糠,下锅炸至金黄酥脆控油捞出,老人小孩都爱吃,隔壁小孩都馋哭了

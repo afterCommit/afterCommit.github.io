@@ -90,6 +90,8 @@ tags:                               #标签
 
 常识告诉我,PCIE通道的硬盘通常很贵,接口也很稀有,我买的电脑预装了廉价的小螃蟹芯片会是PCIE通道的吗?一切只有到货之后才知道,现在只能听天由命了
 
+![包裹](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/package.jpg)<center>拜双十一所赐,龟速快递</center>
+
 ----
 
 换下来的网卡不要扔,裹上鸡蛋液,粘上面包糠,下锅炸至金黄酥脆控油捞出,老人小孩都爱吃,隔壁小孩都馋哭了

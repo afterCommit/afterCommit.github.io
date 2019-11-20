@@ -38,7 +38,7 @@ tags:                               #标签
 
 ----
 
-插播一个消息
+插播
 
 昨天我以消费者的身份致电华为客服,询问了一下intel版魔法书的网卡型号
 
@@ -91,6 +91,14 @@ tags:                               #标签
 常识告诉我,PCIE通道的硬盘通常很贵,接口也很稀有,我买的电脑预装了廉价的小螃蟹芯片会是PCIE通道的吗?一切只有到货之后才知道,现在只能听天由命了
 
 ![包裹](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/package.jpg)<center>拜双十一所赐,龟速快递</center>
+
+----
+
+插播
+
+更正,论坛上有人说之前的网卡是8822CE,但是在官网查询并没有这个型号,最接近的一款是[8821CE](https://www.realtek.com/zh-tw/products/communications-network-ics/item/rtl8821ce)
+
+看来具体型号有待确认,只能等待到货后的眼见为实
 
 ----
 

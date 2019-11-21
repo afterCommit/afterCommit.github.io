@@ -98,6 +98,25 @@ tags:                               #标签
 
 更正,论坛上有人说之前的网卡是8822CE,但是在官网查询并没有这个型号,最接近的一款是[8821CE](https://www.realtek.com/zh-tw/products/communications-network-ics/item/rtl8821ce)
 
+另外还有
+
++ 8822BE
+>802.11AC/ABGN PCIE WLAN WITH BLUETOOTH 4.2 SINGLE-CHIP CONTROLLER The Realtek RTL8822BE-CG is a highly integrated single-chip that supports 2-stream 802.11ac solutions with Multi-user MIMO (Multiple-Input, Multiple-Output) and Wireless LAN (WLAN) PCI Express network interface controller and integrated Bluetooth 2.1/3.0/4.2 USB interface controller. It combines a WLAN MAC, a 2T2R capable WLAN baseband, and RF in a single chip. The RTL8822BE-CG provides a complete solution for a high-performance integrated wireless and Bluetooth device.FeaturesGeneralTFBGA 6.5x6.5mm package802.11 ac/abgn802.11ac 2x2, Wave-2 compatible with MU-MIMOBluetooth 4.2 (Software only)Host interfacePCI Express 1.1 for WLAN controllerUSB2.0 for Bluetooth controllerApplicationsThe product is applicable for PC/NB, Set-top box applications
+>>(机翻)带蓝牙4.2单片机的802.11AC/ABGN PCIE WLAN Realtek RTL8822BE-CG是一个高度集成的单片机，支持2流802.11ac解决方案，支持多用户MIMO(多输入、多输出)和无线局域网(WLAN) PCI Express网络接口控制器，以及集成的蓝牙2.1/3.0/4.2 USB接口控制器。它将一个WLAN MAC、一个支持2T2R的WLAN基带和射频集成在一个芯片中。RTL8822BE-CG为高性能集成无线和蓝牙设备提供了完整的解决方案。WLAN controllerUSB2.0蓝牙控制器应用本产品适用于PC/NB、机顶盒应用
+
++ RTL8822BEH-VR
+>802.11AC/ABGN PCIE WLAN WITH BLUETOOTH 4.1 SINGLE-CHIP CONTROLLER
+The Realtek RTL8822BEH-VR-CG is a highly integrated single-chip that supports 2-stream 802.11ac solutions with Multi-user MIMO (Multiple-Input, Multiple-Output) and Wireless LAN (WLAN) PCI Express network interface controller with integrated Bluetooth 2.1/3.0/4.1 USB interface controller. It combines a WLAN MAC, a 2T2R capable WLAN baseband, and RF in a single chip. The RTL8822BEH-VR-CG provides a complete solution for a high-performance integrated wireless and Bluetooth device. TFBGA 6.5x6.5mm package 802.11 ac/abgn 802.11ac 2x2, Wave-2 compatible with MU-MIMO Bluetooth 4.1 Host interface PCI Express 1.1 for WLAN controller HS-UART for Bluetooth controller Applications The product is applicable for Set-top box and AP router application
+>>(机翻)802.11AC/ABGN PCIE WLAN带蓝牙4.1单片机控制器 Realtek rtl8822behr - vr - cg是一个高度集成的单片机，支持2流802.11ac解决方案，支持多用户MIMO(多输入、多输出)和无线局域网(WLAN) PCI Express网络接口控制器，支持集成蓝牙2.1/3.0/4.1 USB接口控制器。它将一个WLAN MAC、一个支持2T2R的WLAN基带和射频集成在一个芯片中。rtl8822behr - vr - cg为高性能集成无线和蓝牙设备提供了完整的解决方案。TFBGA 6.5x6.5mm封装802.11ac /abgn 802.11ac 2x2, Wave-2兼容MU-MIMO蓝牙4.1主机接口
+
++ RTL8822BS
+>802.11AC/ABGN SDIO WLAN WITH BLUETOOTH 4.1 SINGLE-CHIP CONTROLLER The Realtek RTL8822BS-CG is a highly integrated single-chip that supports 2-stream 802.11ac solutions with Multi-user MIMO (Multiple-Input, Multiple-Output) and Wireless LAN (WLAN) SDIO interface controller with integrated Bluetooth 2.1/3.0/4.1 HS-UART interface controller. It combines a WLAN MAC, a 2T2R capable WLAN baseband, and RF in a single chip. The RTL8822BS-CG provides a complete solution for a high-performance integrated wireless and Bluetooth device. TFBGA 6.5x6.5mm package 802.11 ac/abgn 802.11ac 2x2, Wave-2 compatible with MU-MIMO Bluetooth 4.1 system Host interface SDIO 1.1/2.0/3.0 for WLAN controller HS-UART for Bluetooth controller Applications The product is applicable for Set-top box, virtual reality, and LTE router application
+>>(机翻)Realtek RTL8822BS-CG是一个高度集成的单片机，支持2流802.11AC解决方案，支持多用户MIMO(多输入、多输出)和无线局域网(WLAN) SDIO接口控制器，支持集成蓝牙2.1/3.0/4.1 HS-UART接口控制器。它将一个WLAN MAC、一个支持2T2R的WLAN基带和射频集成在一个芯片中。RTL8822BS-CG为高性能集成无线和蓝牙设备提供了完整的解决方案。TFBGA 6.5x6.5mm封装802.11ac /abgn 802.11ac 2x2, Wave-2兼容MU-MIMO蓝牙4.1系统主机接口SDIO 1.1/2.0/3.0 for WLAN controller HS-UART for Bluetooth controller Applications本产品适用于机顶盒、虚拟现实、LTE路由器应用
+
++ RTL8822BU
+>802.11AC/ABGN USB WLAN WITH BLUETOOTH 4.1 SINGLE-CHIP CONTROLLER The Realtek RTL8822BU-CG is a highly integrated single-chip that supports 2-stream 802.11ac solutions with Multi-user MIMO (Multiple-Input, Multiple-Output) and Wireless LAN (WLAN) with integrated Bluetooth 2.1/3.0/4.1 USB-multi interface controller. It combines a WLAN MAC, a 2T2R capable WLAN baseband, and RF in a single chip. The RTL8822BU-CG provides a complete solution for a high-performance integrated wireless and Bluetooth device. TFBGA 6.5x6.5mm package 802.11 ac/abgn 802.11ac 2x2, Wave-2 compatible with MU-MIMO Bluetooth 4.1 system Host interface USB2.0 for WLAN and BT controller Applications The product is applicable for TV and Set-top box application
+>>(机翻)Realtek RTL8822BU-CG是一个高度集成的单片机，支持2流802.11AC解决方案，多用户MIMO(多输入、多输出)和无线局域网(WLAN)，集成了蓝牙2.1/3.0/4.1 USB-multi interface CONTROLLER。它将一个WLAN MAC、一个支持2T2R的WLAN基带和射频集成在一个芯片中。RTL8822BU-CG为高性能集成无线和蓝牙设备提供了完整的解决方案。TFBGA 6.5x6.5mm封装802.11ac /abgn 802.11ac 2x2, Wave-2兼容MU-MIMO蓝牙4.1系统主机接口USB2.0用于WLAN和BT控制器应用本产品适用于电视和机顶盒应用
+
 看来具体型号有待确认,只能等待到货后的眼见为实
 
 ----

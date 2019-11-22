@@ -127,6 +127,26 @@ tags:                               #标签
 ![到货](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/item.jpg)<center>如果换不成功,最坏的打算,USB无线网卡</center>
 
 ----
+# 开工
+
+在我打开电脑的那一刻我惊呆了,电源排线的防拆条完好如新,而我经历过两次拆机级别的"专业工程师"--华为官方客户服务中心的维修
+
+![没有断电的专业维修](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/battery.jpg)<center>专业的带电维修师傅</center>
+
+旧网卡确实是 RTL8822CE 但是官网上却查不到这个型号实属蹊跷
+
+拆机中的难点主要是在新网卡上接天线,手残搞不定,比如我用了半个小时
+
+高清无码大图由于网络环境问题就不上传了
+
+重要节点的图片做成了电子相册,自行观看
+
+![视频](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/upload.jpg)<center>视频已经上传，看不见多刷新几遍</center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sL-bWYtq4ss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<b>注意</b>换网卡危险性高于加装硬盘,千万注意手部放电,尤其是干燥的冬天,硬盘位不包含主板部件网卡位不同
+
 # 见解
 
 我理解华为想要扶持中国企业,但有的真的是扶不起来啊,扶瑞昱扶声卡、以太网卡、读卡器和分线器都是可以的,无线网卡还是算了吧

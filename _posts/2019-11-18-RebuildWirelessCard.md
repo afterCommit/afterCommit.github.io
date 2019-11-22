@@ -5,7 +5,7 @@ subtitle:   贾母急的搂了宝玉道:"孽障!你生气,要打骂人容易,何
 date:       2019-11-18 00:59:59 GMT+0800             # 时间
 author:     Zen                 # 作者
 header-img: img/photo/jiuzhaigou.webp    #这篇文章标题背景图片
-catalog: False                       # 是否归档
+catalog: True                      # 是否归档
 tags:                               #标签
     - 杂谈
 ---

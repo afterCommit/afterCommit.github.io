@@ -147,6 +147,11 @@ tags:                               #标签
 
 <b>注意</b>换网卡危险性高于加装硬盘,千万注意手部放电,尤其是干燥的冬天,硬盘位不包含主板部件网卡位不同
 
+# 效果图
+
+![最终效果](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/finall.png)<center>英特尔WiFi6Bluetooth5.0</center>
+
+
 # 见解
 
 我理解华为想要扶持中国企业,但有的真的是扶不起来啊,扶瑞昱扶声卡、以太网卡、读卡器和分线器都是可以的,无线网卡还是算了吧

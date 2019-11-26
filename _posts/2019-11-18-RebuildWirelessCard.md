@@ -40,7 +40,7 @@ tags:                               #标签
 
 ----
 
-# 插播
+# 睿智客服
 
 昨天我以消费者的身份致电华为客服,询问了一下intel版魔法书的网卡型号
 
@@ -60,7 +60,7 @@ tags:                               #标签
 
 ----
 
-# 插播
+# 转机
 
 刚才接到了华为客服中心的电话
 
@@ -98,7 +98,7 @@ tags:                               #标签
 
 ----
 
-# 插播
+# 数据
 
 更正,论坛上有人说之前的网卡是8822CE,但是在官网查询并没有这个型号,最接近的一款是[8821CE](https://www.realtek.com/zh-tw/products/communications-network-ics/item/rtl8821ce)
 
@@ -177,6 +177,16 @@ ipconfig /all
 SN=5EKPM18320000397|MAC=98541B2E6877|MODELID=00000505
 生成二维码，然后手机用那个APP扫一下
 按提示激活NFC标签，好了
+
+其中,二维码的内容
+>SN=5EKPM18320000397|MAC=680715939B02|MODELID=00000505
+
+SN填机器的SN号
+可以用这个命令查询`wmic bios get serialnumber`
+
+MAC填芯片的bluetooth地址而不是网卡地址,虽然这俩东西在一张PCB上
+
+MODELID00000505是MateBook D的型号 但是我无论如何也查不到MagicBook Pro的MODELID 希望能人异士找到后能告诉我一声
 
 购买六张NFC标签制作一张还剩五张,剩下的就扔掉吗?
 

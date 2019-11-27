@@ -183,6 +183,7 @@ SN=5EKPM18320000397|MAC=98541B2E6877|MODELID=00000505
 
 SN填机器的SN号
 可以用这个命令查询`wmic bios get serialnumber`
+
 已知部分MODELID如下
 
 |型号|值|效果图|

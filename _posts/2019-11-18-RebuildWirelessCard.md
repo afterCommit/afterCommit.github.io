@@ -102,6 +102,8 @@ tags:                               #标签
 
 更正,论坛上有人说之前的网卡是8822CE,但是在官网查询并没有这个型号,最接近的一款是[8821CE](https://www.realtek.com/zh-tw/products/communications-network-ics/item/rtl8821ce)
 
+已知Intel9560AC由于需要Intel芯片组协同工作,所以理论上不支持锐龙版魔法书
+
 另外还有
 
 + 8822BE
@@ -134,6 +136,10 @@ tags:                               #标签
 ![没有断电的专业维修](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/battery.jpg)<center>专业的带电维修师傅</center>
 
 旧网卡确实是 RTL8822CE 但是官网上却查不到这个型号实属蹊跷
+
+D壳卸下螺丝后需要使用翘片撬开,最容易下手的部分在通风部分
+
+![效果图](https://s2.ax1x.com/2019/11/27/Q986BQ.jpg)
 
 拆机中的难点主要是在新网卡上接天线,手残搞不定,比如我用了半个小时
 

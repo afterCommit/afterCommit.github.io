@@ -183,6 +183,12 @@ SN=5EKPM18320000397|MAC=98541B2E6877|MODELID=00000505
 
 SN填机器的SN号
 可以用这个命令查询`wmic bios get serialnumber`
+已知部分MODELID如下
+
+|型号|值|效果图|
+|:---:|:---:|:---:|
+|MateBook D (2018)|00000505|![MateBook D 效果图](https://s2.ax1x.com/2019/11/27/Q9kZeU.jpg)|
+|Ryzen 2500|00000803||
 
 MAC填芯片的bluetooth地址而不是网卡地址,虽然这俩东西在一张PCB上
 
@@ -193,5 +199,35 @@ MODELID00000505是MateBook D的型号 但是我无论如何也查不到MagicBook
 剩下的贴片不要扔,~~裹上鸡蛋液,粘上面包糠,下锅炸至金黄酥脆控油捞出,老人小孩都爱吃,隔壁小孩都馋哭了~~还可以复制门禁卡,电梯卡等(一种不能说的卡)
 
 那就是后话了
+
+# 鸣谢
+
+一起奋战的小伙伴们(排名不分先后)
+
+[我是传奇snake](https://club.huawei.com/space-uid-7719051.html)
+
+[sing238](https://club.huawei.com/space-uid-16975468.html)
+
+[妖夭柒](https://club.huawei.com/space-uid-145794107.html)
+
+[huafen854571664](https://club.huawei.com/space-uid-137254691.html)
+
+[雾海沧狐](https://club.huawei.com/space-uid-7274763.html)
+
+[君羊主](https://club.huawei.com/space-uid-23722374.html)
+
+[芥末绿](https://club.huawei.com/space-uid-98447634.html)
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+
 
 ----

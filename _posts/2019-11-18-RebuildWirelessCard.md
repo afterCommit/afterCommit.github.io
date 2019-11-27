@@ -201,7 +201,7 @@ MAC填芯片的bluetooth地址而不是网卡地址,虽然这俩东西在一张P
 
 MODELID00000505是MateBook D的型号 但是我无论如何也查不到MagicBook Pro的MODELID 希望能人异士找到后能告诉我一声
 
-读取出来的NFC芯片信息如下,感谢`我是传奇snake`
+读取出来的NFC芯片信息如下,感谢`我是传奇snake`提供图片
 
 |IC Info|Ndef|Extra|Full Scan|
 |:--:|:--:|:--:|:--:|

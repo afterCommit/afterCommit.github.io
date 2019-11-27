@@ -201,6 +201,12 @@ MAC填芯片的bluetooth地址而不是网卡地址,虽然这俩东西在一张P
 
 MODELID00000505是MateBook D的型号 但是我无论如何也查不到MagicBook Pro的MODELID 希望能人异士找到后能告诉我一声
 
+读取出来的NFC芯片信息如下,感谢`我是传奇snake`
+
+|IC Info|Ndef|Extra|Full Scan|
+|:--:|:--:|:--:|:--:|
+|![IC Info](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/icInfo.jpg)|![Ndef](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/ndef.jpg)|![Extra](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/extra.jpg)|![Full Scan](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/fullScan.jpg)|
+
 购买六张NFC标签制作一张还剩五张,剩下的就扔掉吗?
 
 剩下的贴片不要扔,~~裹上鸡蛋液,粘上面包糠,下锅炸至金黄酥脆控油捞出,老人小孩都爱吃,隔壁小孩都馋哭了~~还可以复制门禁卡,电梯卡等(一种不能说的卡)

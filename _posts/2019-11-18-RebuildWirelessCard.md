@@ -125,7 +125,7 @@ tags:                               #标签
 <font size="18">看来具体型号有待确认,不如现在来有奖竞猜一下,评论区留下你的答案,猜对可获得群成员稀有ASMR,正确答案即将揭晓</font>
 
 ----
-# 网卡 螺丝刀 防静电设备到货
+# 到货
 ![到货](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/item.jpg)<center>如果换不成功,最坏的打算,USB无线网卡</center>
 
 ----

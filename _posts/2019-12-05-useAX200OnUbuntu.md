@@ -5,7 +5,7 @@ subtitle:   我一直都想把北京房子卖了,然后回到老家,换个大房
 date:       2019-12-05 00:59:59 GMT+0800             # 时间
 author:     Zen                 # 作者
 header-img: img/photo/jiuzhaigou.webp    #这篇文章标题背景图片
-catalog: False                      # 是否归档
+catalog: True                      # 是否归档
 tags:                               #标签
     - 技巧
 ---

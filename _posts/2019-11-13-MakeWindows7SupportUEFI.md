@@ -65,6 +65,6 @@ Windows7添加UEFI支持文件的方法:从Windows8的安装文件中提取`Boot
 ## 彩蛋
 
 鉴于许多人是花粉俱乐部来的,并且也大部分买的是AMD魔法书的用户
-这里有一个接近成品的iso,首先声明,我只更改了USB和EHCI驱动,后期你们非要用带有注入流氓软件功能的PE安装与我无关
-[百度网盘](https://pan.baidu.com/s/1TIfK9hXU2yZPbYTNU6gCUA) 
-有缘人才能看到提取码：<font color="#000000"> jrnf </font>
+这里有一个接近成品的iso,首先声明,我只更改了USB和E(X)HCI驱动,后期你们非要用带有注入流氓软件功能的PE安装与我无关
+[百度网盘](https://pan.baidu.com/s/1TIfK9hXU2yZPbYTNU6gCUA)
+有缘人才能看到提取码:<font color="#FFFFFF"> jrnf </font>

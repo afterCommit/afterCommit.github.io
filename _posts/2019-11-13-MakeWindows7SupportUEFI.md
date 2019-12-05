@@ -36,25 +36,25 @@ Windows7添加UEFI支持文件的方法:从Windows8的安装文件中提取`Boot
 
 按`shift+F10`打开命令提示符
 
-把MBR磁盘转换为GPT磁盘
+把MBR磁盘转换为GPT磁盘
 
-键入
+键入
 
-`diskpart` 打开diskpart工具
+`diskpart` 打开diskpart工具
 
-`list disk`列出系统拥有的磁盘
+`list disk`列出系统拥有的磁盘
 
 `select disk 0`选择目标磁盘选择0号磁盘(请根据磁盘大小,自行判断你的目标磁盘)
 
 `clean`清空目标磁盘
 
-`convert gpt`转换为GPT格式
+`convert gpt`转换为GPT格式
 
 `list partition`列出磁盘上的分区,因为我们刚转换成GPT格式,因此分区为空
 
 `create partition efi size=200`建立EFI分区
 
-`create partition msr size=128`建立MSR分区
+`create partition msr size=128`建立MSR分区
 
 `create partition primary size=102400`建立主分区,该分区用来安装win7 X64
 

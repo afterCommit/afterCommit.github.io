@@ -125,7 +125,7 @@ tags:                               #标签
 <font size="18">看来具体型号有待确认,不如现在来有奖竞猜一下,评论区留下你的答案,猜对可获得群成员稀有ASMR,正确答案即将揭晓</font>
 
 ----
-# 网卡 螺丝刀 防静电设备到货
+# 到货
 ![到货](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/item.jpg)<center>如果换不成功,最坏的打算,USB无线网卡</center>
 
 ----
@@ -195,7 +195,12 @@ SN填机器的SN号
 |型号|值|效果图|
 |:---:|:---:|:---:|
 |MateBook D (2018)|00000505|![MateBook D 效果图](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/MateBook_D.jpg)|
+<<<<<<< HEAD
 |MagicBook|00000803/00000800|![MagicBook效果图](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/MagicBook.jpg)|
+=======
+|MateBook X Pro|00000506||
+|MagicBook Ryzen|00000803|![MagicBook 效果图](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/MagicBook.jpg)|
+>>>>>>> 787ab6174eecc7ebb7598064af8976d3a4900b92
 
 MAC填芯片的bluetooth地址而不是网卡地址,虽然这俩东西在一张PCB上
 

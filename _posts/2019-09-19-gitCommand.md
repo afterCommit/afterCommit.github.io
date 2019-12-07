@@ -1,5 +1,5 @@
 ---
-layout:     post                    # 使用的布局(不需要改）
+layout:     post                    # 使用的布局(不需要改)
 title:     git命令(自用)              # 标题
 subtitle:  听周杰伦说荣耀的背后刻着一道孤独,我决定今晚买个HuaWei Mate 30 Pro,不知道能不能抢到  #副标题
 date:       2019-09-19 23:59:59 GMT+0800               # 时间
@@ -205,3 +205,148 @@ tags:                               #标签
 交互式添加文件到暂存区:
 
 `git add -i`
+
+----
+
+
+# 常用命令介绍
+## 命令行介绍
+### Git 全局设置
+```
+$ git config --global user.name "Zen"
+$ git config --global user.email "zhangyiming748@gmail.com"
+```
+
+### 创建一个新仓库(本地)
+```
+$ git clone git@github.com:zhangyiming748/zhangyiming748.github.io.git
+cd git-exmple
+$ touch README.md
+$ git add README.md
+$ git commit -m "add README"
+$ git push -u origin master
+```
+
+### 在已存在的目录中创建仓库
+```
+cd existing_folder
+$ git init
+$ git remote add origin github.com:zhangyiming748/zhangyiming748.github.io.git
+$ git add .
+$ git commit -m "Initial commit"
+$ git push -u origin master
+```
+
+### 将本地已存在的仓库推送到远程仓库
+```
+cd existing_repo
+$ git remote rename origin old-origin
+$ git remote add origin github.com:zhangyiming748/zhangyiming748.github.io.git
+$ git push -u origin --all
+$ git push -u origin --tags
+```
+
+### 查看分支相关命令
+```
+$ git branch -r//查看远程分支
+$ git branch //查看本地分支
+$ git branch -a //查看所有分支
+```
+
+### 拉取远程分支并创建本地分支
+```
+// dev2为远程分支,dev1为本地分支
+$ git checkout -b dev1 origin/dev2;
+//从远程分支dev拉取到本地并且创建本地分支dev,且俩者之间建立映射关系,同时当前分支会切换到dev1
+
+//dev2为远程分支,dev1为本地分支
+$ git fetch origin dev2:dev1;
+//使用该方式会在本地新建分支dev1,但是不会自动切换到该本地分支dev1,需要手动checkout.采用此种方法建立的本地分支不会和远程分支建立映射关系.
+```
+
+### 建立本地分支与远程分支的映射关系(或者为跟踪关系track)
+```
+//这样使用git pull或者git push时就不必每次都要指定从远程的哪个分支拉取合并和推送到远程的哪个分支了.
+
+$ git branch -vv
+// 输出映射关系
+
+// dev为远程分支名
+$ git branch -u origin/dev
+// 将当前本地分支与远程分支建立映射关系
+
+$ git branch --unset-upstream
+//撤销当前本地分支与远程分支的映射关系
+```
+### 切换当前本地分支
+```
+// dev为本地分支名
+$ git checkout dev
+```
+
+### 拉取远程分支代码
+```
+$ git pull
+//使用的前提是当前分支需要与远程分支之间建立映射关系
+```
+
+### 推送本地分支代码到远程分支
+```
+$ git push
+//使用的前提是当前分支需要与远程分支之间建立映射关系
+```
+
+### 合并分支
+
+//场景:现在有dev本地分支与远程分支,master本地分支与远程分支 现在将dev的分支代码合并到master主干上
+//思路步骤:
+1. 有本地修改进行commit并且push到远程dev分支上,保证没有遗漏的,确保当前本地dev与远程dev是一致的
+3. 将当前本地分支切换到本地master上
+4. 将本地分支dev合并到本地master上
+5. 将本地已经合并了dev分支的master进行push到远程master上 大概思路就是这样.需要注意的是在进行merge(合并)的时候需要禁用fast-forward模式
+
+`git merge --no-ff dev` (dev为本地被合并的分支名字)
+
+# Git 版本回退
+
+对于版本的回退,我们经常会用到两个命令:
+`$ git reset`
+`$ git revert`
+
+## git reset
+`$ git reset --hard a0fvf8`
+
+如果直接使用git push命令的话,将无法将更改推到远程仓库.此时,只能使用-f 选项将提交强制推到远程仓库:
+`$ git push -f`
+
+
+## git revert
+git revert的作用通过反做创建一个新的版本,这个版本的内容与我们要回退到的目标版本一样,但是HEAD指针是指向这个新生成的版本,而不是目标版本.
+
+`$ git revert 5lk4er`
+`$ git revert 76sdeb`
+
+
+## 分支命名规范
+### 主分支:
+master:master 分支就叫 master 分支
+develop:develop 分支就叫 develop 分支
+### 辅助分支:
+#### Feature 分支
+`feature/v1.16.0_xxx`,
+`feature/v1.16.0_yyy`,
+`feature/v1.16.0_zzz`
+`v1.16.0` 表示当前迭代的版本号,
+`xxx/yyy/zzz` 表示当前迭代的功能或业务单元的名称
+#### Release 分支
+`release/v1.17.0`,
+`release/v1.18.0`
+`v1.17.0`,`v1.18.0` 根据上线需求和系统上线计划,合理规划版本号,每个大版本号表示一次上线正常上线过程.
+#### Hotfix 分支
+`hotfix/v1.17.1`,
+`hotfix/v1.17.2`
+`v1.17.1`,`v1.17.2` 表示v1.17.0 这个版本做了2次线上问题热修复.
+# 总结
++ 并行开发:依据迭代的发版计划和任务分解,创建feature(不同迭代需通过版本号隔离,同一个迭代内要上线的功能需要通过feature隔离)
++ 保持迭代内代码的可预见性&可控制性: 迭代内,只允许主迭代的feature代码提交到develop分支
++ 哪里有问题改哪里,改完后及时合并到主分支: release(fit)环境的问题修复:应从release分支拉出分支进行问题修复,修复后及时合并到develop主分支 master环境的问题修复:应从生产环境对应的tag(一般为最新的版本号)拉出分支进行问题修复,问题修复后及时合并代码至develop主分支和master主分支

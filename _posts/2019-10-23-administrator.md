@@ -1,5 +1,5 @@
 ---
-layout:     post                    # 使用的布局(不需要改）
+layout:     post                    # 使用的布局(不需要改)
 title:      win10无法使用内置管理员账户打开应用的临时解决办法             # 标题
 subtitle:   一个男的,爱上一个色盲女,然后男孩的家人说色盲是遗传病,坚决不同意,但最终男孩还是突破重重阻难和女孩结了婚,一年后,生下一个女儿,而很快,悲剧发生了,女儿鉴定出是色盲,然后男孩就毅然决然的跟女孩离婚了,那么问题来了,男孩为什么和女孩离婚? #副标题
 date:       2019-10-23 00:00:00 GMT+0800             # 时间
@@ -16,18 +16,18 @@ tags:                               #标签
 
 ## 注册表(适用于所有版本)
 
-1. 按下“WIN+R”输入：regedit回车，进入注册表编辑器；
+1. 按下“WIN+R”输入:regedit回车,进入注册表编辑器；
 
 2. 在注册表左侧依次打开`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System`,在右边找到`FilterAdministratorToken`,双击后将数值数据改为`1`并`确定`
 若没有`FilterAdministratorToken`则在空白处点击鼠标右键新建 `DWORD(32位)值`,并更名为`FilterAdministratorToken`双击将其数值数据改为`1`
-3. 改完后,还要改另外一个,也是一样,依次展开`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\UIPI`,在右边有个`默认项`,双击将值改成`1`完成后重启。
+3. 改完后,还要改另外一个,也是一样,依次展开`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\UIPI`,在右边有个`默认项`,双击将值改成`1`完成后重启.
 
 ## 组策略(适用于专业版/企业版)
 1. 按下`WIN+R`输入`secpol.msc`回车进入`本地安全策略编辑器`
 
 2. 在组策略中依次打开`安全设置`->`本地策略`->`安全选项`
 
-3. 在右侧双击打开`用户帐户控制:用于内置管理员帐户的管理员批准模式`改为`已启用`确定并重启后生效。
+3. 在右侧双击打开`用户帐户控制:用于内置管理员帐户的管理员批准模式`改为`已启用`确定并重启后生效.
 
 ## 无脑版(适用于阿尔茨海默症的人)
 

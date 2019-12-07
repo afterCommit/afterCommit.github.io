@@ -1,5 +1,5 @@
 ---
-layout:     post                    # 使用的布局(不需要改）
+layout:     post                    # 使用的布局(不需要改)
 title:      我爱我的祖国             # 标题
 subtitle:   <!-- subtitle --> #副标题
 date:       2019-10-01 00:00:00 GMT+0800             # 时间

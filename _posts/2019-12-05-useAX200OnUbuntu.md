@@ -1,7 +1,7 @@
 ---
-layout:     post                    # 使用的布局(不需要改）
+layout:     post                    # 使用的布局(不需要改)
 title:      Ubuntu使用Intel AX200网卡       # 标题
-subtitle:   我一直都想把北京房子卖了,然后回到老家,换个大房子,买上一辆车,过上慢节奏走生活,可房东一直不同意。 #副标题
+subtitle:   我一直都想把北京房子卖了,然后回到老家,换个大房子,买上一辆车,过上慢节奏走生活,可房东一直不同意. #副标题
 date:       2019-12-05 00:59:59 GMT+0800             # 时间
 author:     Zen                 # 作者
 header-img: img/photo/jiuzhaigou.webp    #这篇文章标题背景图片

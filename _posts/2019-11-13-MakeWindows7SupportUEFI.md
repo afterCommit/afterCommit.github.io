@@ -1,7 +1,7 @@
 ---
-layout:     post                    # 使用的布局(不需要改）
+layout:     post                    # 使用的布局(不需要改)
 title:      魔改Windows7支持UEFI       # 标题
-subtitle:   2019年双11发展方向:把优惠券藏在大兴安岭丛林深处一颗四百年古树右后方300英尺的刘姓土拨鼠家的车库里，在2小时内找到土拨鼠一家并在车库前合影留念，即可获得5元优惠券  #副标题
+subtitle:   2019年双11发展方向:把优惠券藏在大兴安岭丛林深处一颗四百年古树右后方300英尺的刘姓土拨鼠家的车库里,在2小时内找到土拨鼠一家并在车库前合影留念,即可获得5元优惠券  #副标题
 date:       2019-11-13 00:59:59 GMT+0800             # 时间
 author:     Zen                 # 作者
 header-img: img/photo/jiuzhaigou.webp    #这篇文章标题背景图片
@@ -30,7 +30,7 @@ tags:                               #标签
 
 Windows8原生支持UEFI,没问题.Windows7不一样,如果是U盘或移动硬盘安装,需要添加UEFI支持文件,否则不能以UEFI方式启动.
 
-Windows7添加UEFI支持文件的方法:从Windows8的安装文件中提取`Bootmgr.efi`文件，重命名为`BOOTX64.efi`拷贝到win7安装文件的`\EFI\Boot\`下,没有BOOT文件夹新建一个`Bootmgr.efi`也可以从已经安装好的Win8/10系统获得,路径`C:\Windows\boot`
+Windows7添加UEFI支持文件的方法:从Windows8的安装文件中提取`Bootmgr.efi`文件,重命名为`BOOTX64.efi`拷贝到win7安装文件的`\EFI\Boot\`下,没有BOOT文件夹新建一个`Bootmgr.efi`也可以从已经安装好的Win8/10系统获得,路径`C:\Windows\boot`
 
 进入安装界面和正常安装相同
 
@@ -60,7 +60,7 @@ Windows7添加UEFI支持文件的方法:从Windows8的安装文件中提取`Boot
 
 `list partition`列出磁盘上的分区,检查一下是否建立好了分区,好了就关掉CMD
 
-这时返回到了选择分区的界面，点刷新后，选择刚才那个主分区,不再赘述
+这时返回到了选择分区的界面,点刷新后,选择刚才那个主分区,不再赘述
 
 ## 彩蛋
 

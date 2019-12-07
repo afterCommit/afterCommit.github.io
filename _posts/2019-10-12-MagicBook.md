@@ -1,5 +1,5 @@
 ---
-layout:     post                    # 使用的布局(不需要改）
+layout:     post                    # 使用的布局(不需要改)
 title:      投入阿三怀抱!适用于预装Linux系统的魔法书or美腿书             # 标题
 subtitle:   如果觉得装系统难,我不要你觉得,我要我觉得 #副标题
 date:       2019-10-12 00:00:00 GMT+0800             # 时间
@@ -45,7 +45,7 @@ tags:                               #标签
     ![BIOS](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img//MagicBook/BIOS.png)
 
     剩下就和通用安装方法相同了
-4. 安装电脑管家及驱动软件。
+4. 安装电脑管家及驱动软件.
     这里说的“管家”,是真正意义上的“管家”,而不是那些打着“为你好”的旗号以保护之名行窃取之实的流氓软件
     [魔法书网址](http://www.honor.cn/support/softwarelist/)我直接发出来,网址里搜索框输入你电脑的型号,分为Intel和AMD两种千万别下错,搜出来的东西全安装一遍,自己点进去下,省得少说一句都要去xx精灵下个流氓软件回来,其中重要且需要首先安装的是[I家](https://consumer-tkb.huawei.com/tkbapp/downloadWebsiteService?websiteId=1696068) or [A家](https://consumer-tkb.huawei.com/tkbapp/downloadWebsiteService?websiteId=1695963)根据你买的电脑,先安装这个.
 

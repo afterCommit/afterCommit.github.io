@@ -1,7 +1,7 @@
 ---
-layout:     post                    # 使用的布局(不需要改）
+layout:     post                    # 使用的布局(不需要改)
 title:      科技尝鲜版魔法书deepin的OOBE阶段设置             # 标题
-subtitle:   不羡鸳鸯不羡仙，只羡房子画个圈，拆字写在圈中间，从此快乐每一天！ #副标题
+subtitle:   不羡鸳鸯不羡仙,只羡房子画个圈,拆字写在圈中间,从此快乐每一天！ #副标题
 date:       2019-10-14 03:00:00 GMT+0800             # 时间
 author:     Zen                 # 作者
 header-img: img/photo/jiuzhaigou.webp    #这篇文章标题背景图片

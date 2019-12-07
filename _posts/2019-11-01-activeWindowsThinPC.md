@@ -1,5 +1,5 @@
 ---
-layout:     post                    # 使用的布局(不需要改）
+layout:     post                    # 使用的布局(不需要改)
 title:      证书方式激活WindowsThinPC             # 标题
 subtitle:    #副标题
 date:       2019-11-01 00:00:01 GMT+0800             # 时间

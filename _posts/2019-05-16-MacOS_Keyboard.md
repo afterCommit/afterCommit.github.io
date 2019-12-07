@@ -1,5 +1,5 @@
 ---
-layout:     post                    # 使用的布局（不需要改）
+layout:     post                    # 使用的布局(不需要改)
 title:      MacOS键盘符号说明             # 标题
 subtitle:   商女不知亡国恨,隔江犹唱双截棍  #副标题
 date:       2019-05-16              # 时间
@@ -10,16 +10,16 @@ tags:                               #标签
     - Macintosh OS
 ---
 
-在Windows用户或Linux用户更换到Mac OS平台之后少不了的一定是看教程，教程里有时为了方便，直接使用了符号，这里说一下符号对应的键位
+在Windows用户或Linux用户更换到Mac OS平台之后少不了的一定是看教程,教程里有时为了方便,直接使用了符号,这里说一下符号对应的键位
 
-⌘：command 
+⌘:command 
 
-⌃：control 
+⌃:control 
 
-⌥：option 
+⌥:option 
 
-⇧：shift 
+⇧:shift 
 
-↩：enter 
+↩:enter 
 
-⌫：delete
+⌫:delete

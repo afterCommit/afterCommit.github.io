@@ -1,7 +1,7 @@
 ---
-layout:     post                    # 使用的布局(不需要改）
+layout:     post                    # 使用的布局(不需要改)
 title:      定制安装office2019               # 标题
-subtitle:    上班吃外卖真的很不健康，珍爱生命，建议不要上班  #副标题
+subtitle:    上班吃外卖真的很不健康,珍爱生命,建议不要上班  #副标题
 date:       2019-06-06 11:41:00              # 时间
 author:     Zen                      # 作者
 header-img: img/pet/supremelysab-787607-unsplash.webp   #这篇文章标题背景图片
@@ -49,8 +49,8 @@ configure.xml
 </Configuration>
 ```
 其中
-+ ExcludeApp表示不安装，相反IncludeApp表示安装
-+ SourcePath="H:\"表示安装镜像挂载的位置，比如H:\
++ ExcludeApp表示不安装,相反IncludeApp表示安装
++ SourcePath="H:\"表示安装镜像挂载的位置,比如H:\
 + ProPlus2019Volume表示安装你常见的office组件
 + VisioPro2019Volume表示安装VISIO
 + ProjectPro2019Volume表示安装Project

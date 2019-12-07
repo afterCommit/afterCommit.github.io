@@ -1,5 +1,5 @@
 ---
-layout:     post                    # 使用的布局(不需要改）
+layout:     post                    # 使用的布局(不需要改)
 title:      求求你发截图吧               # 标题
 subtitle:    拍照真的是能看瞎啊 #副标题
 date:       2019-05-29              # 时间

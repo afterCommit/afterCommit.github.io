@@ -1,5 +1,5 @@
 ---
-layout:     post                    # 使用的布局(不需要改）
+layout:     post                    # 使用的布局(不需要改)
 title:      MySQL基本命令               # 标题
 subtitle:      #副标题
 date:       2019-05-29 11:42:00              # 时间
@@ -11,7 +11,7 @@ tags:                               #标签
 ---
 
 1. `show databases;`
-查看所有的数据库，等同于select schema_name from information_schema.schemata\G。\G 替换;,以纵向报表的形式输出结果，有利于阅读。
+查看所有的数据库,等同于select schema_name from information_schema.schemata\G.\G 替换;,以纵向报表的形式输出结果,有利于阅读.
 
 2. `status`
 查看mysql数据库的运行状态

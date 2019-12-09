@@ -37,7 +37,7 @@ tags:                               #标签
 + 查看当前数据库
     `select database();`
 
-+ 显示当前时间、用户名、数据库版本
++ 显示当前时间\用户名\数据库版本
     `select now(), user(), version();`
 + 创建库
     `create database[ if not exists] 数据库名 数据库选项`
@@ -68,7 +68,7 @@ tags:                               #标签
         如果表没有设定,则使用数据库字符集
     + 存储引擎
         ENGINE = engine_name    
-        表在管理数据时采用的不同的数据结构,结构不同会导致处理方式、提供的特性操作等不同
+        表在管理数据时采用的不同的数据结构,结构不同会导致处理方式\提供的特性操作等不同
         常见的引擎:InnoDB MyISAM Memory/Heap BDB Merge Example CSV MaxDB Archive
         不同的引擎在保存表的结构和数据时采用不同的方式
         MyISAM表文件含义:.frm表定义,.MYD表数据,.MYI表索引
@@ -138,7 +138,7 @@ tags:                               #标签
 + 增
     INSERT [INTO] 表名 [(字段列表)] VALUES (值列表)[, (值列表), ...]
         + 如果要插入的值列表包含所有字段并且顺序一致,则可以省略字段列表.
-        + 可同时插入多条数据记录！
+        + 可同时插入多条数据记录!
         REPLACE 与 INSERT 完全一样,可互换.
     INSERT [INTO] 表名 SET 字段名=值[, 字段名=值, ...]
 + 查
@@ -153,7 +153,7 @@ tags:                               #标签
     UPDATE 表名 SET 字段名=新值[, 字段名=新值] [更新条件]
 
 **字符集编码**------------------
-+ MySQL、数据库、表、字段均可设置编码
++ MySQL\数据库\表\字段均可设置编码
 + 数据编码与客户端编码不需一致
 SHOW VARIABLES LIKE 'character_set_%'    + 查看所有字符集编码项
     character_set_client        客户端向服务器发送数据时使用的编码
@@ -221,7 +221,7 @@ SET NAMES GBK;    + 相当于完成以上三个设置
     varchar 是变长的,需要利用存储空间保存 varchar 的长度,如果数据小于255个字节,则采用一个字节来保存长度,反之需要两个字节来保存.
     varchar 的最大有效长度由最大行大小和使用的字符集确定.
     最大有效长度是65532字节,因为在varchar存字符串时,第一个字节是空的,不存在任何数据,然后还需两个字节来存放字符串的长度,所以有效长度是64432-1-2=65532字节.
-    例:若一个表定义为 CREATE TABLE tb(c1 int, c2 char(30), c3 varchar(N)) charset=utf8; 问N的最大值是多少？ 答:(65535-1-2-4-30*3)/3
+    例:若一个表定义为 CREATE TABLE tb(c1 int, c2 char(30), c3 varchar(N)) charset=utf8; 问N的最大值是多少? 答:(65535-1-2-4-30*3)/3
 
 + b. blob, text ----------
     blob 二进制字符串(字节字符串)
@@ -243,23 +243,23 @@ SET NAMES GBK;    + 相当于完成以上三个设置
     time        3字节    时间            -838:59:59 到 838:59:59
     year        1字节    年份            1901 - 2155
 
-datetime    “YYYY-MM-DD hh:mm:ss”
-timestamp    “YY-MM-DD hh:mm:ss”
-            “YYYYMMDDhhmmss”
-            “YYMMDDhhmmss”
+datetime    "YYYY-MM-DD hh:mm:ss"
+timestamp    "YY-MM-DD hh:mm:ss"
+            "YYYYMMDDhhmmss"
+            "YYMMDDhhmmss"
             YYYYMMDDhhmmss
             YYMMDDhhmmss
-date        “YYYY-MM-DD”
-            “YY-MM-DD”
-            “YYYYMMDD”
-            “YYMMDD”
+date        "YYYY-MM-DD"
+            "YY-MM-DD"
+            "YYYYMMDD"
+            "YYMMDD"
             YYYYMMDD
             YYMMDD
-time        “hh:mm:ss”
-            “hhmmss”
+time        "hh:mm:ss"
+            "hhmmss"
             hhmmss
-year        “YYYY”
-            “YY”
+year        "YYYY"
+            "YY"
             YYYY
             YY
 
@@ -386,7 +386,7 @@ set(val1, val2, val3...)
 a. select_expr
     + 可以用 * 表示所有字段.
         select * from tb;
-    + 可以使用表达式(计算公式、函数调用、字段也是个表达式)
+    + 可以使用表达式(计算公式\函数调用\字段也是个表达式)
         select stu, 29+25, now() from tb;
     + 可以为每个列使用别名.适用于简化列标识,避免多个列标识符重复.
         - 使用 as 关键字,也可省略 as.
@@ -406,7 +406,7 @@ c. where 子句
     + 从from获得的数据源中进行筛选.
     + 整型1表示真,0表示假.
     + 表达式由运算符和运算数组成.
-        + 运算数:变量(字段)、值、函数返回值
+        + 运算数:变量(字段)\值\函数返回值
         + 运算符:
             =, <=>, <>, !=, <=, <, >=, >, !, &&, ||,
             in (not) null, (not) like, (not) in, (not) between and, is (not), and, or, not, xor
@@ -419,7 +419,7 @@ d. group by 子句, 分组子句
     分组后会进行排序.升序:ASC,降序:DESC
 
     以下[合计函数]需配合 group by 使用:
-    count 返回不同的非NULL值数目    count(*)、count(字段)
+    count 返回不同的非NULL值数目    count(*)\count(字段)
     sum 求和
     max 求最大值
     min 求最小值
@@ -428,7 +428,7 @@ d. group by 子句, 分组子句
 ```
 ```
 e. having 子句,条件子句
-    与 where 功能、用法相同,执行时机不同.
+    与 where 功能\用法相同,执行时机不同.
     where 在开始时执行检测数据,对原数据进行过滤.
     having 对筛选出的结果再次进行过滤.
     having 字段必须是查询出来的,where 字段必须是数据表存在的.
@@ -461,7 +461,7 @@ h. distinct, all 选项
     建议,对每个SELECT查询加上小括号包裹.
     ORDER BY 排序时,需加上 LIMIT 进行结合.
     需要各select查询的字段数量一样.
-    每个select查询的字段列表(数量、类型)应一致,因为结果中的字段名以第一条select语句为准.
+    每个select查询的字段列表(数量\类型)应一致,因为结果中的字段名以第一条select语句为准.
 
 
 **子查询**------------------
@@ -644,9 +644,9 @@ CREATE [OR REPLACE] [ALGORITHM = {UNDEFINED | MERGE | TEMPTABLE}] VIEW view_name
 
 + 视图算法(ALGORITHM)
     MERGE        合并
-        将视图的查询语句,与外部查询需要先合并再执行！
+        将视图的查询语句,与外部查询需要先合并再执行!
     TEMPTABLE    临时表
-        将视图执行完毕后,形成临时表,再做外层查询！
+        将视图执行完毕后,形成临时表,再做外层查询!
     UNDEFINED    未定义(默认),指的是MySQL自主去选择相应的算法.
 
 
@@ -687,10 +687,10 @@ CREATE [OR REPLACE] [ALGORITHM = {UNDEFINED | MERGE | TEMPTABLE}] VIEW view_name
 + 事务的原理
     利用InnoDB的自动提交(autocommit)特性完成.
     普通的MySQL执行语句后,当前的数据提交操作均可被其他客户端可见.
-    而事务是暂时关闭“自动提交”机制,需要commit提交持久化数据操作.
+    而事务是暂时关闭"自动提交"机制,需要commit提交持久化数据操作.
 
 + 注意
-    1. 数据定义语言(DDL)语句不能被回滚,比如创建或取消数据库的语句,和创建、取消或更改表或存储的子程序的语句.
+    1. 数据定义语言(DDL)语句不能被回滚,比如创建或取消数据库的语句,和创建\取消或更改表或存储的子程序的语句.
     2. 事务不能被嵌套
 
 + 保存点
@@ -717,7 +717,7 @@ MyISAM 支持表锁,InnoDB 支持行锁
 
 **触发器**------------------
     触发程序是与表有关的命名数据库对象,当该表出现特定事件时,将激活该对象
-    监听:记录的增加、修改、删除.
+    监听:记录的增加\修改\删除.
 
 + 创建触发器
 CREATE TRIGGER trigger_name trigger_time trigger_event ON tbl_name FOR EACH ROW trigger_stmt
@@ -789,7 +789,7 @@ end
 
 
 --// 全局变量 ----------
-+ 定义、赋值
++ 定义\赋值
 set 语句可以定义并为变量赋值.
 set @var = value;
 也可以使用select into语句为变量初始化并赋值.这样要求select语句只能返回一行,但是可以是多个字段,就意味着同时为多个变量进行赋值,变量的数量需要与查询的列数一致.
@@ -1027,7 +1027,7 @@ SHOW VIEW    + 允许使用SHOW CREATE VIEW
 SHUTDOWN    + 允许使用mysqladmin shutdown
 SUPER    + 允许使用CHANGE MASTER, KILL, PURGE MASTER LOGS和SET GLOBAL语句,mysqladmin debug命令；允许您连接(一次),即使已达到max_connections.
 UPDATE    + 允许使用UPDATE
-USAGE    + “无权限”的同义词
+USAGE    + "无权限"的同义词
 GRANT OPTION    + 允许授予权限
 
 
@@ -1042,12 +1042,12 @@ OPTIMIZE [LOCAL | NO_WRITE_TO_BINLOG] TABLE tbl_name [, tbl_name] ...
 
 
 **杂项**------------------
-1. 可用反引号(\`)为标识符(库名、表名、字段名、索引、别名)包裹,以避免与关键字重名！中文也可以作为标识符！
+1. 可用反引号(\`)为标识符(库名\表名\字段名\索引\别名)包裹,以避免与关键字重名!中文也可以作为标识符!
 2. 每个库目录存在一个保存当前数据库的选项文件db.opt.
 3. 注释:
     单行注释 # 注释内容
     多行注释**注释内容**
-    单行注释 + 注释内容        (标准SQL注释风格,要求双破折号后加一空格符(空格、TAB、换行等))
+    单行注释 + 注释内容        (标准SQL注释风格,要求双破折号后加一空格符(空格\TAB\换行等))
 4. 模式通配符:
     _    任意单个字符
     %    任意多个字符,甚至包括零字符

@@ -43,7 +43,7 @@ WindowsTerminal的配置文件在
             "acrylicOpacity" : 0.75,//不透明度
             "closeOnExit" : true,
             "colorScheme" : "Solarized Light",//颜色主题
-            "commandline" : "powershell.exe",//对应启动的shell,这里powershell.exe表明启动的是PowerShell,当然你也可以换成pwsh,cmd甚至是VS的开发命令行、ssh直接连接远程主机或者虚拟机.只要是命令行的程序,这里都可以填入,但是要注意一下json的语法.这里要在多说一句,这里填入wsl命令就可以启动默认的Linux子系统,wsl ~就可以让启动目录是wsl的用户主目录
+            "commandline" : "powershell.exe",//对应启动的shell,这里powershell.exe表明启动的是PowerShell,当然你也可以换成pwsh,cmd甚至是VS的开发命令行\ssh直接连接远程主机或者虚拟机.只要是命令行的程序,这里都可以填入,但是要注意一下json的语法.这里要在多说一句,这里填入wsl命令就可以启动默认的Linux子系统,wsl ~就可以让启动目录是wsl的用户主目录
             "cursorColor" : "#657B83",//光标颜色
             "cursorShape" : "bar",//光标形状 bar==竖线 emptyBox==空心矩形 filledBox==实心矩形 vintage==下划线
             "fontFace" : "Sarasa Term SC",//就是字体了

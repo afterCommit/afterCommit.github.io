@@ -23,7 +23,7 @@ Vmware workstation Player 7/12/14/15
 
 **去[官网](https://www.vmware.com/cn.html)下载**
 
-重要的事情说三遍,下载链接就摆在那里,不会下载是你自己的问题,就这智商,要啥自行车？
+重要的事情说三遍,下载链接就摆在那里,不会下载是你自己的问题,就这智商,要啥自行车?
 # 安装VMware
 安装过程对一些人来说也是个问题
 不要抖机灵非要安装软件到非系统盘,原因不多说,知道悔改的看[这篇文章](https://zhangyiming748.github.io/2019/05/23/HardDisk_Partition/)

@@ -16,7 +16,7 @@ tags:                               #标签
 
 ## 注册表(适用于所有版本)
 
-1. 按下“WIN+R”输入:regedit回车,进入注册表编辑器；
+1. 按下"WIN+R"输入:regedit回车,进入注册表编辑器；
 
 2. 在注册表左侧依次打开`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System`,在右边找到`FilterAdministratorToken`,双击后将数值数据改为`1`并`确定`
 若没有`FilterAdministratorToken`则在空白处点击鼠标右键新建 `DWORD(32位)值`,并更名为`FilterAdministratorToken`双击将其数值数据改为`1`

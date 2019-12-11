@@ -32,5 +32,21 @@ tags:                               #标签
 # VMware workstation Pro
 是一款收费的虚拟机软件
 ## 下载
-
+因为上次教别人下载这个软件受过内伤,字掉进眼睛里都看不见最后下了一个云服务部署工具,所以这次直接给[下载链接](https://www.vmware.com/go/getworkstation-linux),答应我不要再看不见了
 ## 安装
+
+cd 到下载目录
+
+`sudo chmod a+rwx *.bundle `
+
+`./XXXXXXXX.bundle`
+
+安装过程中需要自定义的地方都选默认就好
+
+一定要现在输入激活码不要选跳过
+
+毕竟是一款收费软件
+
+我绝对不会告诉你们激活码的
+
+<font color=#FFFFFF>VG5HH-D6E04-0889Y-QXZET-QGUC8</font>

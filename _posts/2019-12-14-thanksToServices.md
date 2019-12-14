@@ -1,7 +1,7 @@
 ---
 layout:     post                    # 使用的布局(不需要改)
 title:      实名表扬北京石景山华为客户服务中心       # 标题
-subtitle:   老同学聚会,发现贫富差距特别大,有些人穷,而有些人更穷   #副标题
+subtitle:   征集副标题   #副标题
 date:       2019-12-11 00:59:59 GMT+0800             # 时间
 author:     Zen                 # 作者
 header-img: img/photo/jiuzhaigou.webp    #这篇文章标题背景图片
@@ -20,3 +20,4 @@ tags:                               #标签
 
 最后贴上我在淘宝上能买到的最接近官方的贴片和官方贴片的对比:
 
+![到货](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/huaweiShare.jpg)<center>不是对焦问题,看起来就是淘宝商家把正版贴纸有损放大了</center>

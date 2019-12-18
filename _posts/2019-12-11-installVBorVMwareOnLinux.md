@@ -49,4 +49,4 @@ cd 到下载目录
 
 我绝对不会告诉你们激活码的
 
-<font color=#FFFFFF>VG5HH-D6E04-0889Y-QXZET-QGUC8
+<xmp><font color=#FFFFFF>VG5HH-D6E04-0889Y-QXZET-QGUC8</font></xmp>

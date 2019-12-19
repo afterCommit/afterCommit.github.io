@@ -9,7 +9,58 @@ catalog: False                       # 是否归档
 tags:                               #标签
     - 杂谈
 ---
+Android可以自由导入导出文件。
 
+Android可以通过更多渠道获取应用。
+
+Android可以自己进行刷机自定义系统。
+
+Android可以安装软件插件。
+
+Android可以不用交30%智商税。
+
+Android热点不会自动关闭。
+
+Android有多功能NFC。
+
+Android可以自定义语音助手。
+
+Android有自动点击器。
+
+Android有自动关机。
+
+Android可以自定义动态壁纸。
+
+Android图片文件夹分类明确清晰。
+
+Android不用受到百度云智障限速。
+
+Android自带准确的流量统计。
+
+Android可以自定义桌面。
+
+Android有悬浮窗。
+
+Android有息屏显示。
+
+Android有实时网速监控。
+
+Android可以自定义状态栏图标项目。
+
+Android各种方法支持长截图。
+
+Android有息屏快捷手势。
+
+Android各种姿势清理垃圾文件。
+
+Android可以设置图案解锁。
+
+Android可以自定义动画幅度。
+……
+以上都是原生Android和iOS 13 Developer Beta 4的对比。很多深度定制、自定义系统的黑科技均未列举。
+
+不接受抬杠。以上内容全部属实，你不会弄是你的事情。
+----
 # 关于iPhone不卡
 + Android优先响应程序
 就像pc,在跑某个大型程序的时候,可能任务管理器已经显示无响应,但是程序依然在工作,工作结束后才能恢复响应,形象比喻就是:我现在要专心忙我的事,没时间跟你互动,等我忙完了会通知你。而从用户角度看,屏幕没反应了,过一会才好

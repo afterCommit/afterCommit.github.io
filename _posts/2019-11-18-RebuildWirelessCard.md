@@ -195,17 +195,14 @@ SN填机器的SN号
 |型号|值|效果图|
 |:---:|:---:|:---:|
 |MateBook D (2018)|00000505|![MateBook D 效果图](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/MateBook_D.jpg)|
-<<<<<<< HEAD
 |MagicBook|00000803/00000800|![MagicBook效果图](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/MagicBook.jpg)|
-=======
 |MateBook X Pro|00000506||
 |MagicBook Ryzen|00000803|![MagicBook 效果图](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/MagicBook.jpg)|
->>>>>>> 787ab6174eecc7ebb7598064af8976d3a4900b92
 
 MAC填芯片的bluetooth地址而不是网卡地址,虽然这俩东西在一张PCB上
 
-MODELID00000505是MateBook D的型号 但是我无论如何也查不到MagicBook Pro的MODELID 希望能人异士找到后能告诉我一声
-
+MODELID00000505是MateBook D的型号 ~~但是我无论如何也查不到MagicBook Pro的MODELID 希望能人异士找到后能告诉我一声~~
+MagicBook Pro的MODELID是0804,人还是要靠自己
 读取出来的NFC芯片信息如下,感谢`我是传奇snake`提供图片
 
 |IC Info|Ndef|Extra|Full Scan|

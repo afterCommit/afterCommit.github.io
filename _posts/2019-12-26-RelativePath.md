@@ -9,4 +9,6 @@ catalog: False                       # 是否归档
 tags:                               #标签
     - 测试
 ---
-![相对路径](../img/newYear.jpg)
+相对路径测试失败
+----
+![相对路径](https://github.com/zhangyiming748/zhangyiming748.github.io/raw/master/img/newYear.jpg)

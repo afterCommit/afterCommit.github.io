@@ -549,7 +549,7 @@ select语句获得的数据可以用insert插入.
 
 可以省略对列的指定,要求 values () 括号内,提供给了按照列顺序出现的所有字段的值.
     或者使用set语法.
-    insert into tbl_name set field=value,...；
+    insert into tbl_name set field=value,...;
 
 可以一次性使用多个值,采用(), (), ();的形式.
     insert into tbl_name values (), (), ();
@@ -682,7 +682,7 @@ CREATE [OR REPLACE] [ALGORITHM = {UNDEFINED | MERGE | TEMPTABLE}] VIEW view_name
 + 事务的实现
     1. 要求是事务支持的表类型
     2. 执行一组相关的操作前开启事务
-    3. 整组操作完成后,都成功,则提交；如果存在失败,选择回滚,则会回到事务开始的备份点.
+    3. 整组操作完成后,都成功,则提交;如果存在失败,选择回滚,则会回到事务开始的备份点.
 
 + 事务的原理
     利用InnoDB的自动提交(autocommit)特性完成.
@@ -831,7 +831,7 @@ END
     statement_list
 end while [end_label];
 
-- 如果需要在循环内提前终止 while循环,则需要使用标签；标签需要成对出现.
+- 如果需要在循环内提前终止 while循环,则需要使用标签;标签需要成对出现.
 
     + 退出循环
         退出整个循环 leave
@@ -1025,7 +1025,7 @@ SELECT    + 允许使用SELECT
 SHOW DATABASES    + 显示所有数据库
 SHOW VIEW    + 允许使用SHOW CREATE VIEW
 SHUTDOWN    + 允许使用mysqladmin shutdown
-SUPER    + 允许使用CHANGE MASTER, KILL, PURGE MASTER LOGS和SET GLOBAL语句,mysqladmin debug命令；允许您连接(一次),即使已达到max_connections.
+SUPER    + 允许使用CHANGE MASTER, KILL, PURGE MASTER LOGS和SET GLOBAL语句,mysqladmin debug命令;允许您连接(一次),即使已达到max_connections.
 UPDATE    + 允许使用UPDATE
 USAGE    + "无权限"的同义词
 GRANT OPTION    + 允许授予权限

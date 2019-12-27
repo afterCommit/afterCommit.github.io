@@ -194,10 +194,10 @@ SN填机器的SN号
 
 |型号|值|效果图|
 |:---:|:---:|:---:|
-|MateBook D (2018)|00000505|![MateBook D 效果图](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/MateBook_D.jpg)|
-|MagicBook|00000803/00000800|![MagicBook效果图](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/MagicBook.jpg)|
+|MateBook D (2018)|00000505|![MateBook D](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/MateBook_D.jpg)|
+|MagicBook|00000803/00000800|![MagicBook](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/MagicBook.jpg)|
 |MateBook X Pro|00000506||
-|MagicBook Ryzen|00000803|![MagicBook 效果图](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/MagicBook.jpg)|
+|MagicBook Ryzen|00000803|![MagicBook](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/MagicBook.jpg)|
 
 MAC填芯片的bluetooth地址而不是网卡地址,虽然这俩东西在一张PCB上
 

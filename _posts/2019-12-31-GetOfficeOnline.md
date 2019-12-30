@@ -14,7 +14,7 @@ tags:                               #标签
 
 皇帝的网址链接:
 
-<font color="#FFFFFF"><br>https://config.office.com/deploymentsettings<br></font>
+<font color="#FFFFFF">https://config.office.com/deploymentsettings</font>
 
 1. 选择自己需要安装的组件
 2. 全部选择完成后点击右上方导出
@@ -27,7 +27,7 @@ tags:                               #标签
 
 皇帝的网址链接:
 
-<font color="#FFFFFF"><br>https://www.microsoft.com/en-us/download/details.aspx?id=49117<br></font>
+<font color="#FFFFFF">https://www.microsoft.com/en-us/download/details.aspx?id=49117</font>
 
 ## 解压部署工具
 

@@ -13,7 +13,9 @@ tags:                               #标签
 ## Office官网得到xml
 
 皇帝的网址链接：
-<font color="#FFFFFF"><a href="https://config.office.com/deploymentsettings">恭喜你聪明人</a></font>
+<font color="#FFFFFF">
+https://config.office.com/deploymentsettings
+</font>
 
 1. 选择自己需要安装的组件
 2. 全部选择完成后点击右上方导出
@@ -25,7 +27,9 @@ tags:                               #标签
 ## Microsoft官网得到部署工具
 
 皇帝的网址链接：
-<font color="#FFFFFF"><a href="https://www.microsoft.com/en-us/download/details.aspx?id=49117">恭喜你聪明人</a></font>
+<font color="#FFFFFF">
+https://www.microsoft.com/en-us/download/details.aspx?id=49117
+</font>
 
 ## 解压部署工具
 

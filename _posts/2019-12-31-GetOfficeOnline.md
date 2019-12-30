@@ -12,8 +12,8 @@ tags:                               #标签
 
 ## Office官网得到xml
 
-皇帝的网址链接:
-<font color="#FFFFFF">[皇帝的网址链接](https://config.office.com/deploymentsettings)</font>
+皇帝的网址链接：
+<font color="#FFFFFF"><a href="https://config.office.com/deploymentsettings">恭喜你聪明人</a></font>
 
 1. 选择自己需要安装的组件
 2. 全部选择完成后点击右上方导出
@@ -24,25 +24,25 @@ tags:                               #标签
 
 ## Microsoft官网得到部署工具
 
-皇帝的网址链接:
-<font color="#FFFFFF">[皇帝的网址链接](https://www.microsoft.com/en-us/download/details.aspx?id=49117)</font>
+皇帝的网址链接：
+<font color="#FFFFFF"><a href="https://www.microsoft.com/en-us/download/details.aspx?id=49117">恭喜你聪明人</a></font>
 
 ## 解压部署工具
 
-双击下载的部署工具,解压到任何你喜欢的位置,比如桌面;会得到setup.exe和几个xml文件,如果你之前自己生成过xml,就不需要这几个默认的xml,最好别用,改首选语言挺麻烦的
+双击下载的部署工具，解压到任何你喜欢的位置，比如桌面；会得到setup.exe和几个xml文件，如果你之前自己生成过xml，就不需要这几个默认的xml，最好别用，改首选语言挺麻烦的
 
 ## 运行部署工具
 
 
 以管理员身份运行cmd或powershell
 
-cmd:
++ cmd：
 
 `cd %userprofile%\Desktop`
 
 `setup.exe /configure configuration.xml`
 
-powershell:
++ powershell:
 
 `cd %userprofile%\Desktop`
 
@@ -52,15 +52,19 @@ powershell:
 
 ## 激活
 
-如果运气好赶上了第一波,有可能直接就是大客户批量激活,不过现在可能连车尾灯都看不见了
+如果运气好赶上了第一波，有可能直接就是大客户批量激活，不过现在可能连车尾灯都看不见了
 
-不过我比较善良,以下是部分皇帝的神秘代码
+不过我比较善良，以下是部分皇帝的神秘代码
 
 <font color="#FFFFFF">
+
 if %i%==1 set KMS_Sev=kms7.MSGuides.com
+
 if %i%==2 set KMS_Sev=kms8.MSGuides.com
+
 if %i%==3 set KMS_Sev=kms9.MSGuides.com
+
 if %i%==4 goto notsupported
 </font>
 
-不敢发全,毕竟涉及到版权
+不敢发全，毕竟涉及到版权

@@ -14,9 +14,7 @@ tags:                               #标签
 
 皇帝的网址链接:
 
-<font color="#FFFFFF">
-https://config.office.com/deploymentsettings
-</font>
+<font color="#FFFFFF"><br>https://config.office.com/deploymentsettings<br></font>
 
 1. 选择自己需要安装的组件
 2. 全部选择完成后点击右上方导出
@@ -29,9 +27,7 @@ https://config.office.com/deploymentsettings
 
 皇帝的网址链接:
 
-<font color="#FFFFFF">
-https://www.microsoft.com/en-us/download/details.aspx?id=49117
-</font>
+<font color="#FFFFFF"><br>https://www.microsoft.com/en-us/download/details.aspx?id=49117<br></font>
 
 ## 解压部署工具
 
@@ -62,15 +58,6 @@ https://www.microsoft.com/en-us/download/details.aspx?id=49117
 
 不过我比较善良,以下是部分皇帝的神秘代码
 
-<font color="#FFFFFF">
-
-if %i%==1 set KMS_Sev=kms7.MSGuides.com
-
-if %i%==2 set KMS_Sev=kms8.MSGuides.com
-
-if %i%==3 set KMS_Sev=kms9.MSGuides.com
-
-if %i%==4 goto notsupported
-</font>
+<font color="#FFFFFF">if %i%==1 set KMS_Sev=kms7.MSGuides.comif<br>%i%==2 set KMS_Sev=kms8.MSGuides.comif<br>%i%==3 set KMS_Sev=kms9.MSGuides.comif<br>%i%==4 goto notsupported</font>
 
 不敢发全,毕竟涉及到版权

@@ -57,7 +57,7 @@ Android可以设置图案解锁.
 
 Android可以自定义动画幅度.
 ……
-以上都是原生Android和iOS 13 Developer Beta 4的对比.很多深度定制、自定义系统的黑科技均未列举.
+以上都是原生Android和iOS 13 Developer Beta 4的对比.很多深度定制\自定义系统的黑科技均未列举.
 
 不接受抬杠.以上内容全部属实,你不会弄是你的事情.
 ----

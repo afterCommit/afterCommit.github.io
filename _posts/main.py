@@ -1,10 +1,12 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
 from glob import glob
 
 
 def zh_ch2en_us(files):
     for file in files:
         print(file)
-        f = open(file, 'r+', encoding='utf-8')
+        f = open(file, 'r+')
         all_the_lines = f.readlines()
         f.seek(0)
         f.truncate()

@@ -1,14 +1,16 @@
 # Site settings
 title: 张益铭的博客
-SEOTitle: 张益铭的博客
+subtitle: "You dida dida me,I hualahuala you."
+SEOTitle: 技术博客
+author: Zen
 header-img: img/HomePage_bg.png
 email: zhangyiming748@gmail.com
-description: "You dida dida me,I hualahuala you."
+description:
 keyword: "windows,ubuntu,macos"
 url: "http://zhangyiming748.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/zhangyiming748/zhangyiming748.github.io.git" # you code repository
-
+language: en
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "巴山楚水凄凉地,responsibility"
@@ -93,7 +95,10 @@ featured-condition-size: 1              # 相同标签数量大于这个数,才�
 chrome-tab-theme-color: "#202020"
 service-worker: true
 
-
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 20
+pagination_dir: page
 
 # Friends
 friends: [

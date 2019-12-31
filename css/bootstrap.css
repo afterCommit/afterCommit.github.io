@@ -44,7 +44,10 @@ template {
   display: none;
 }
 a {
-  background-color: transparent;
+    /*
+    background-color: transparent;
+    */
+  background-color: rgba(187,187,187,1)
 }
 a:active,
 a:hover {

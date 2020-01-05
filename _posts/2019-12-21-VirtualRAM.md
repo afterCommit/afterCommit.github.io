@@ -18,7 +18,7 @@ tags:                               #标签
 ----
 最近又看到娱乐大师在搞笑了
 
-![娱乐大师](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/EntertainmentMaster.jpg?raw=true)<center>国产自主研发高仿AMD CPU 比龙芯什么的高级多了</center>
+![娱乐大师](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/EntertainmentMaster.jpg)<center>国产自主研发高仿AMD CPU 比龙芯什么的高级多了</center>
 
 没看到笑点的自己去查查3550H配的什么型号显卡核心
 

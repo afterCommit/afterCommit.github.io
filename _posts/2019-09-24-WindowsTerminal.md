@@ -9,7 +9,7 @@ catalog: False                       # 是否归档
 tags:                               #标签
     - 常识
 ---
-----
+
 
 WindowsTerminal的配置文件在
 

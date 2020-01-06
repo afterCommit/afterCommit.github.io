@@ -12,12 +12,6 @@ tags:                               #标签
 
 
 
-
-
-
-
-----
-
 # 安装git
 
 [OSX](http://git-scm.com/download/mac)

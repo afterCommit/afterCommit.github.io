@@ -31,7 +31,7 @@ tags:                               #标签
 ![封面](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/GeekBench/geekbenchtitle.png)
 
 CPU部分
-![CPU](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/cpuBench.png)
+![CPU](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/GeekBench/cpuBench.png)
 
 |Workload Name|Section ID|Workload ID|Workers|Score|Runtime|Runtime Standard Deviation|Work|
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
@@ -80,7 +80,7 @@ CPU部分
 
 计算机部分
 
-![计算机](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/computerBench.png)
+![计算机](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/GeekBench/computerBench.png)
 
 |Workload Name|Section ID|Workload ID|Workers|Score|Runtime|Runtime Standard Deviation|Work|
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|

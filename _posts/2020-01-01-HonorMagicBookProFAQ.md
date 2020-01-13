@@ -1,7 +1,7 @@
 ---
 layout:     post                    # 使用的布局(不需要改)
 title:      荣耀魔法书之十万个不为什么(unofficial)            # 标题
-subtitle:   此博主已经被消灭,该博客已由人工智能接管 #副标题
+subtitle:   有些人很奇怪,明明是来提问,还要嘲笑解答的人好为人师,得到答案后先去质疑,然后觉得自己在技术方面拼不过,就要从道德制高点压制一下 #副标题
 date:       2020-01-01 00:00:01 GMT+0800             # 时间
 author:     Zen                 # 作者
 header-img: img/photo/jiuzhaigou.webp    #这篇文章标题背景图片

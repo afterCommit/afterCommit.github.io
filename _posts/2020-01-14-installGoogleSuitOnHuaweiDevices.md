@@ -21,3 +21,9 @@ CET4至今未过
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8cWEUQmBi04" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 方法就是这样,不知道手机以后OTA升级后会不会失效,期待一个勇士
+
+----
+
+我的效果图如下
+
+图片后补,我实在是不知道怎么用同一个手机拍同一个手机

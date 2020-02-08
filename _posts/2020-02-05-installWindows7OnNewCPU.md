@@ -12,8 +12,8 @@ tags:                               #标签
 
 
 # Step 1 下载安装镜像
-+ 去[这里](msdn.itellyou.cn)自行下载win7x64版本安装镜像或[直接下载](ed2k://|file|cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408.iso|3420557312|B58548681854236C7939003B583A8078|/M)
-
++ 去[这里](msdn.itellyou.cn)自行下载win7x64版本安装镜像或[直接下载](
+ed2k://|file|cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408.iso|3420557312|B58548681854236C7939003B583A8078|/)
 # Step 2 处理安装镜像
 + 使用任何你擅长的工具把镜像文件中`resource\install.wim`提取出来
 + 使用[DISM++](http://cdn.chuyu.me/Dism++10.1.1001.10_d4ba4eb035254b3326d6adc6638bc9c8daea7018.zip)或任何你喜欢的方式挂载这个wim包到本机的任意一个空文件夹下,这里要注意你的绝对路径不要含有任何中文和特殊符号

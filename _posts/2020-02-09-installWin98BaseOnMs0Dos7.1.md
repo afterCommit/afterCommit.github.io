@@ -4,7 +4,7 @@ title:      安装Windows98         # 标题
 subtitle:   我是一只被禁足的安小鸟 #副标题
 date:       2020-02-09 00:00:02 GMT+0800             # 时间
 author:     Zen                 # 作者
-header-img: img/photo/jiuzhaigou.webp    #这篇文章标题背景图片
+header-img: img/photo/birdAn.png    #这篇文章标题背景图片
 catalog: False                      # 是否归档
 tags:                               #标签
     - 操作系统

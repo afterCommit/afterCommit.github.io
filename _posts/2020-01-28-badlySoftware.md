@@ -1,10 +1,10 @@
 ---
 layout:     post                    # 使用的布局(不需要改)
 title:      没卵用的安全软件         # 标题
-subtitle:   宅在家里刷手机,想睡就睡想吃就吃就等于为国家做贡献了,这是之前想都不敢想的事 #副标题
+subtitle:   我是一只被禁足的安小鸟 #副标题
 date:       2020-01-28 00:00:01 GMT+0800             # 时间
 author:     碧海居士                # 作者
-header-img: img/photo/jiuzhaigou.webp    #这篇文章标题背景图片
+header-img: img/photo/birdAngle.webp    #这篇文章标题背景图片
 catalog: False                       # 是否归档
 tags:                               #标签
     - 杂谈

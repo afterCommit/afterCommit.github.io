@@ -4,7 +4,7 @@ title:      用Rufus不费脑制作PE              # 标题
 subtitle:   我是一只被禁足的安小鸟  #副标题
 date:       2020-02-17              # 时间
 author:     Zen                      # 作者
-header-img: img/pet/supremelysab-787607-unsplash.webp   #这篇文章标题背景图片
+header-img: img/photo/birdAngle.webp   #这篇文章标题背景图片
 catalog: True                       # 是否归档
 tags:                               #标签
     - 操作系统

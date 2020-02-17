@@ -15,6 +15,7 @@ tags:                               #标签
   - Rufus
   - 根据个人喜好选择的PE镜像
   - U盘(容量由镜像大小决定)
+
 ----
 
 # 天才第一步
@@ -23,18 +24,19 @@ tags:                               #标签
 
 # 配图
 
-![插入一个正常的U盘]()<center>插入一个正常的U盘</center>
-![打开Rufus]()<center>打开Rufus</center>
-![选择这个U盘]()<center>选择这个U盘</center>
-![选择已经下载好的PE镜像]()<center>选择已经下载好的PE镜像</center>
-![选择MBR/GPT]()<center>选择MBR/GPT</center>
-![不要更改默认设置]()<center>不要更改默认设置</center>
-![开始制作]()<center>开始制作</center>
-![最后一次确认]()<center>最后一次确认</center>
-![制作完成]()<center>制作完成</center>
+<div align="center">
+![打开Rufus](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/Make_Bootable_PE/openRufus.png?raw=true)打开Rufus
+</div>
+![选择这个U盘](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/Make_Bootable_PE/selectDevices.png?raw=true)选择这个U盘</center>
+![选择已经下载好的PE镜像](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/Make_Bootable_PE/selectISO.png?raw=true)<center>选择已经下载好的PE镜像</center>
+![选择MBR/GPT](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/Make_Bootable_PE/selectPartTabel.png?raw=true)<center>选择MBR/GPT</center>
+![不要更改默认设置](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/Make_Bootable_PE/default.png?raw=true)<center>不要更改默认设置</center>
+![开始制作](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/Make_Bootable_PE/start.png?raw=true)<center>开始制作</center>
+![最后一次确认](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/Make_Bootable_PE/makeSure.png?raw=true)<center>最后一次确认</center>
+![制作完成](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/Make_Bootable_PE/finish.png?raw=true)<center>制作完成</center>
 关闭电脑后,打开电源长按F12(部分新款Thinkpad需要开机先按回车之后再按F12,部分华硕机型热键是DEL),选择这个U盘,enter进入
-![启动PE]()<center>启动PE</center>
-![进入PE]()<center>进入PE</center>
+![启动PE](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/Make_Bootable_PE/startPE.png?raw=true)<center>启动PE</center>
+![进入PE](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/Make_Bootable_PE/intoPE.png?raw=true)<center>进入PE</center>
 然后就像使用正常电脑一样,把电脑里重要的文件复制出来,粘贴到外部存储器上(移动硬盘什么的),然后就可以重装这台电脑了
 可以参考
 [系统盘安装原版Win10](https://zhangyiming748.github.io/2019/05/19/install_win10/)

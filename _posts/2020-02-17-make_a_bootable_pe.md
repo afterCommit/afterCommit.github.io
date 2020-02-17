@@ -25,7 +25,6 @@ tags:                               #标签
 # 配图
 
 ![打开Rufus](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/Make_Bootable_PE/openRufus.png?raw=true)<center>打开Rufus</center>
-
 ![选择这个U盘](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/Make_Bootable_PE/selectDevices.png?raw=true)<center>选择这个U盘</center>
 ![选择已经下载好的PE镜像](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/Make_Bootable_PE/selectISO.png?raw=true)<center>选择已经下载好的PE镜像</center>
 ![选择MBR/GPT](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/Make_Bootable_PE/selectPartTabel.png?raw=true)<center>选择MBR/GPT</center>
@@ -41,3 +40,10 @@ tags:                               #标签
 [系统盘安装原版Win10](https://zhangyiming748.github.io/2019/05/19/install_win10/)
 和
 [制作系统盘](https://zhangyiming748.github.io/2019/05/16/make_a_bootable_usb_disk/)
+# 途中使用的软件和镜像下载
+首先说明软件与本人无关
+>根据2002年1月1日<计算机软件保护条例>规定:为了学习和研究软件内含的设计思想和原理,通过安装,显示,传输或者存储软件等方式使用软件的,可以不经软件著作权人许可,不向其支付报酬!
+
+光卡PE:[b29p](https://pan.baidu.com/s/1PrTQ4aqhAVYllVexk7TDjg)
+
+Rufus:[wz46](https://pan.baidu.com/s/1C8Dq_GMeCith9qNTptOcaQ)

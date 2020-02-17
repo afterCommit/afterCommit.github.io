@@ -24,10 +24,9 @@ tags:                               #标签
 
 # 配图
 
-<div align="center">
-![打开Rufus](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/Make_Bootable_PE/openRufus.png?raw=true)打开Rufus
-</div>
-![选择这个U盘](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/Make_Bootable_PE/selectDevices.png?raw=true)选择这个U盘</center>
+![打开Rufus](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/Make_Bootable_PE/openRufus.png?raw=true)<center>打开Rufus</center>
+
+![选择这个U盘](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/Make_Bootable_PE/selectDevices.png?raw=true)<center>选择这个U盘</center>
 ![选择已经下载好的PE镜像](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/Make_Bootable_PE/selectISO.png?raw=true)<center>选择已经下载好的PE镜像</center>
 ![选择MBR/GPT](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/Make_Bootable_PE/selectPartTabel.png?raw=true)<center>选择MBR/GPT</center>
 ![不要更改默认设置](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/Make_Bootable_PE/default.png?raw=true)<center>不要更改默认设置</center>

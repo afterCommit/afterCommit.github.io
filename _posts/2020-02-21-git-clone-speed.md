@@ -15,3 +15,5 @@ tags:                               #标签
 `nslookup github.com`
 2. 修改hosts文件
 `vi etc/hosts`
+3. 重启
+`sudo /etc/init.d/networking restart`

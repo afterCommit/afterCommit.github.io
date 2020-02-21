@@ -15,5 +15,6 @@ tags:                               #标签
 `nslookup github.com`
 2. 修改hosts文件
 `vi etc/hosts`
-3. 重启
+3. 重启或更新
 `sudo /etc/init.d/networking restart`
+`sudo dscacheutil -flushcache`

@@ -198,6 +198,10 @@ SN填机器的SN号
 |MagicBook|00000803/00000800|![MagicBook](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/MagicBook.jpg)|
 |MateBook X Pro|00000506||
 |MagicBook Ryzen|00000803|![MagicBook](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/MagicBook.jpg)|
+|MateBook D(2018)|00000505||
+|MateBook X Pro|00000506||
+|MateBook 13|00000507||
+|MateBook 14|00000507||
 
 MAC填芯片的bluetooth地址而不是网卡地址,虽然这俩东西在一张PCB上
 

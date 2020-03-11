@@ -30,6 +30,7 @@ tags:                               #标签
     等待完成
     2. 创建一个文本文件`grub.cfg`保存到u盘`boot/grub`文件夹下,命令为`touch /media/<username>/<drive_label>/boot/grub/grub.cfg`
     文件内容为
+
     ```
     default=1  
     timeout=15
@@ -55,6 +56,7 @@ tags:                               #标签
         boot
     }
     ```
+    
     3. 用vi或者你喜欢的编辑器写入就好
     4. 制作完成,这种方法支持legacy bios和uefi csm
 2. GPT可启动

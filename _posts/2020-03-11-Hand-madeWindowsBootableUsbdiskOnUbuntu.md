@@ -68,7 +68,7 @@ tags:                               #标签
 ## 应观众要求,以下是图文教程
 
 ![insertUdisk](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/ubuntu/makeBootableUSB/insertUdisk.png?raw=true)<center>插入U盘</center>
-![listDisk](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/ubuntu/!makeBootableUSB/listDisk.png?raw=true)<center>查看当前磁盘状态</center>
+![listDisk](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/ubuntu/makeBootableUSB/listDisk.png?raw=true)<center>查看当前磁盘状态</center>
 ![deleteFirst](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/ubuntu/makeBootableUSB/deleteFirst.png?raw=true)<center>重建分区表前必须删除所有分区</center>
 ![cleanPartition](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/ubuntu/makeBootableUSB/cleanPartition.png?raw=true)<center>清除U盘上全部分区</center>
 ![createPartable](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/ubuntu/makeBootableUSB/createPartable.png?raw=true)<center>新建分区表</center>

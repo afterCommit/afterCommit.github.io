@@ -56,10 +56,29 @@ tags:                               #标签
         boot
     }
     ```
-    
+
     3. 用vi或者你喜欢的编辑器写入就好
     4. 制作完成,这种方法支持legacy bios和uefi csm
 2. GPT可启动
     1. 检查u盘下efi文件夹中是否有文件`bootx64.efi`或`bootia32.efi`,如果有,制作完成可以使用了
     2. 如果没有,挂载之前的ISO找到install.wim或install.esd解压到单独的文件夹或者直接挂载
     3. 进入目录`./windows/BOOT/efi`提取出`bootmgfw.efi`重命名为`bootx64.efi`放入u盘中的`efi/boot`目录,制作完成
+
+----
+## 应观众要求,以下是图文教程
+
+![insertUdisk](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/ubuntu/makeBootableUSB/insertUdisk.png?raw=true)<center>插入U盘</center>
+![listDisk](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/ubuntu/!makeBootableUSB/listDisk.png?raw=true)<center>查看当前磁盘状态</center>
+![deleteFirst](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/ubuntu/makeBootableUSB/deleteFirst.png?raw=true)<center>重建分区表前必须删除所有分区</center>
+![cleanPartition](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/ubuntu/makeBootableUSB/cleanPartition.png?raw=true)<center>清除U盘上全部分区</center>
+![createPartable](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/ubuntu/makeBootableUSB/createPartable.png?raw=true)<center>新建分区表</center>
+![partitionAttribute](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/ubuntu/makeBootableUSB/partitionAttribute.png?raw=true)<center>新建分区的属性</center>
+![createPartitionPrimary](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/ubuntu/makeBootableUSB/createPartitionPrimary.png?raw=true)<center>U盘建立主分区</center>
+![mountCommand](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/ubuntu/makeBootableUSB/mountCommand.png?raw=true)<center>挂载ISO命令</center>
+![mountISO2Dir](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/ubuntu/makeBootableUSB/mountISO2Dir.png?raw=true)<center>挂载ISO到指定目录</center>
+![moveISO2Udisk](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/ubuntu/makeBootableUSB/moveISO2Udisk.png?raw=true)<center>从ISO移动文件到U盘</center>
+![udiskTree](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/ubuntu/makeBootableUSB/udiskTree.png?raw=true)<center>制作完成后的目录结构</center>
+![selectSystem](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/ubuntu/makeBootableUSB/selectSystem.jpg?raw=true)<center>临时指定启动设备界面</center>
+![booting](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/ubuntu/makeBootableUSB/booting.jpg?raw=true)<center>正在进入系统</center>
+![intoSystem](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/ubuntu/makeBootableUSB/intoSystem.jpg?raw=true)<center>进入系统</center>
+![aigoUdisk](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/ubuntu/makeBootableUSB/aigoUdisk.jpg?raw=true)<center>十年前买的爱国者U盘</center>

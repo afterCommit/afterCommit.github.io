@@ -21,3 +21,4 @@ tags:                               #标签
 2. 安装运行后记录下`Google Service Framework(GSF)`的值
 3. 进入`https://www.google.com/android/uncertified/`注册当前值
 4. 打完收工并感谢原作者
+https://accounts.google.com/b/0/DisplayUnlockCaptcha

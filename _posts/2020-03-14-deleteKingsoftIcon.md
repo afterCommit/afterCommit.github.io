@@ -2,12 +2,12 @@
 layout:     post                    # 使用的布局(不需要改)
 title:      删除此电脑中金山云顽固图标       # 标题
 subtitle:   我是一只被禁足的安小鸟  #副标题
-date:       2020-03-14              # 时间
+date:       2020-03-14   00:00:11 GMT+0800           # 时间
 author:     Zen                      # 作者
 header-img: img/photo/birdAngle.webp   #这篇文章标题背景图片
 catalog: False                       # 是否归档
 tags:                               #标签
-    - linux学习
+    - 技巧
 ---
 
 我不是针对金山，我是觉得所有不提供给用户自行选择关闭的软件都是垃圾

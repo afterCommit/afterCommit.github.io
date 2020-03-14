@@ -14,7 +14,7 @@ tags:                               #标签
 
 ## 实例
 ```
-`hey -n 200 -c 2 -m POST -T “application/x-www-form-urlencoded” -d ‘userId=&uuid=&action=*****’ http://127.0.0.1:9090/api/recommend/v1/xxx
+`hey -n 200 -c 2 -m POST -T "application/x-www-form-urlencoded" -d ‘userId=&uuid=&action=*****’ http://127.0.0.1:9090/api/recommend/v1/xxx
 ```
 ## 参数
 -n 要运行的请求数.默认是200.
@@ -40,7 +40,7 @@ tags:                               #标签
 
 -D HTTP request body from file. For example, /home/user/file.txt or ./file.txt.
 
--T Content-type, defaults to “text/html”.
+-T Content-type, defaults to "text/html".
 
 -a Basic authentication, username:password.
 

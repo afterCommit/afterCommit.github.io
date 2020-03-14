@@ -10,7 +10,7 @@ tags:                               #标签
     - 技巧
 ---
 
-我不是针对金山，我是觉得所有不提供给用户自行选择关闭的软件都是垃圾
+我不是针对金山,我是觉得所有不提供给用户自行选择关闭的软件都是垃圾
 ----
 
 ![两个无法直接删除的图标](https://github.com/zhangyiming748/zhangyiming748.github.io/blob/master/img/jinshanCloud/1.png?raw=true)

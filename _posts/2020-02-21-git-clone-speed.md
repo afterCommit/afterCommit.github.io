@@ -2,7 +2,7 @@
 layout:     post                    # 使用的布局(不需要改)
 title:      Git Clone 加速       # 标题
 subtitle:   我是一只被禁足的安小鸟  #副标题
-date:       2020-02-21              # 时间
+date:       2020-02-21   00:00:01 GMT+0800           # 时间
 author:     Zen                      # 作者
 header-img: img/photo/birdAngle.webp   #这篇文章标题背景图片
 catalog: True                       # 是否归档

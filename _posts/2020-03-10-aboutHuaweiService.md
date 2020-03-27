@@ -7,7 +7,7 @@ author:     Zen                      # 作者
 header-img: img/photo/birdAngle.webp   #这篇文章标题背景图片
 catalog: False                       # 是否归档
 tags:                               #标签
-    - 杂谈
+    - 华为
 ---
 近几天,我在华为社区反馈过两个问题,这两个反馈让我了解了世界上有两种客服:华为客服和其他客服
 ----

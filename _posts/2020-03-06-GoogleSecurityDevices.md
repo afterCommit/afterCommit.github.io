@@ -7,7 +7,7 @@ author:     Zen                      # 作者
 header-img: img/photo/birdAngle.webp   #这篇文章标题背景图片
 catalog: False                       # 是否归档
 tags:                               #标签
-    - 技巧
+    - 华为
 ---
 近期的华为设备,尤其是被加入川普优选的华为设备都会被判定为"设备未获得play保护机制认证"
 图片脑补

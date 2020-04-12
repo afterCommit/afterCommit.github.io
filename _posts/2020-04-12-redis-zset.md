@@ -10,40 +10,40 @@ tags:                               #标签
     - redis学习
 ---
 
-zset底层的存储结构包括ziplist或skiplist，在同时满足以下两个条件的时候使用ziplist，其他时候使用skiplist，两个条件如下:
+zset底层的存储结构包括ziplist或skiplist,在同时满足以下两个条件的时候使用ziplist,其他时候使用skiplist,两个条件如下:
 
 - [ ] 有序集合保存的元素数量小于128个
 - [ ] 有序集合保存的所有元素的长度小于64字节
 
-当ziplist作为zset的底层存储结构时候，每个集合元素使用两个紧挨在一起的压缩列表节点来保存，第一个节点保存元素的成员，第二个元素保存元素的分值。
+当ziplist作为zset的底层存储结构时候,每个集合元素使用两个紧挨在一起的压缩列表节点来保存,第一个节点保存元素的成员,第二个元素保存元素的分值.
 ![GLpcTg.jpg](https://s1.ax1x.com/2020/04/12/GLpcTg.jpg)
-当skiplist作为zset的底层存储结构的时候，使用skiplist按序保存元素及分值，使用dict来保存元素和分值的映射关系。
+当skiplist作为zset的底层存储结构的时候,使用skiplist按序保存元素及分值,使用dict来保存元素和分值的映射关系.
 
 ziplist数据结构
-ziplist作为zset的存储结构时，格式如下图,紧挨着的是元素memeber和分值socore，整体数据是有序格式。
+ziplist作为zset的存储结构时,格式如下图,紧挨着的是元素memeber和分值socore,整体数据是有序格式.
 
 ![GLp2kQ.jpg](https://s1.ax1x.com/2020/04/12/GLp2kQ.jpg)
 
 skiplist的源码格式
- zset包括dict和zskiplist两个数据结构，其中dict的保存key/value，便于通过key(元素)获取score(分值)。zskiplist保存有序的元素列表，便于执行range之类的命令。
+ zset包括dict和zskiplist两个数据结构,其中dict的保存key/value,便于通过key(元素)获取score(分值).zskiplist保存有序的元素列表,便于执行range之类的命令.
 ```
 /*
  * 有序集合
  */
 typedef struct zset {
 
-    // 字典，键为成员，值为分值
+    // 字典,键为成员,值为分值
     // 用于支持 O(1) 复杂度的按成员取分值操作
     dict *dict;
 
-    // 跳跃表，按分值排序成员
+    // 跳跃表,按分值排序成员
     // 用于支持平均复杂度为 O(log N) 的按分值定位成员操作
     // 以及范围操作
     zskiplist *zsl;
 
 } zset;
 ```
-zskiplist作为skiplist的数据结构，包括指向头尾的header和tail指针，其中level保存的是skiplist的最大的层数。
+zskiplist作为skiplist的数据结构,包括指向头尾的header和tail指针,其中level保存的是skiplist的最大的层数.
 
 ```
 /*
@@ -62,7 +62,7 @@ typedef struct zskiplist {
 
 } zskiplist;
 ```
-skiplist跳跃列表中每个节点的数据格式，每个节点有保存数据的robj指针，分值score字段，后退指针backward便于回溯，zskiplistLevel的数组保存跳跃列表每层的指针。
+skiplist跳跃列表中每个节点的数据格式,每个节点有保存数据的robj指针,分值score字段,后退指针backward便于回溯,zskiplistLevel的数组保存跳跃列表每层的指针.
 ```
 /*
  * 跳跃表节点
@@ -94,15 +94,15 @@ typedef struct zskiplistNode {
 
 zset存储过程
 
-zset的添加过程我们以zadd的操作作为例子进行分析，整个过程如下：
+zset的添加过程我们以zadd的操作作为例子进行分析,整个过程如下:
 
 解析参数得到每个元素及其对应的分值
 
 查找key对应的zset是否存在不存在则创建
 
-如果存储格式是ziplist，那么在执行添加的过程中我们需要区分元素存在和不存在两种情况，存在情况下先删除后添加；不存在情况下则添加并且需要考虑元素的长度是否超出限制或实际已有的元素个数是否超过最大限制进而决定是否转为skiplist对象。
+如果存储格式是ziplist,那么在执行添加的过程中我们需要区分元素存在和不存在两种情况,存在情况下先删除后添加;不存在情况下则添加并且需要考虑元素的长度是否超出限制或实际已有的元素个数是否超过最大限制进而决定是否转为skiplist对象.
 
-如果存储格式是skiplist，那么在执行添加的过程中我们需要区分元素存在和不存在两种情况，存在的情况下先删除后添加，不存在情况下那么就直接添加，在skiplist当中添加完以后我们同时需要更新dict的对象。
+如果存储格式是skiplist,那么在执行添加的过程中我们需要区分元素存在和不存在两种情况,存在的情况下先删除后添加,不存在情况下那么就直接添加,在skiplist当中添加完以后我们同时需要更新dict的对象.
 ```
 void zaddGenericCommand(redisClient *c, int incr) {
 
@@ -132,7 +132,7 @@ void zaddGenericCommand(redisClient *c, int incr) {
     // 取出有序集合对象
     zobj = lookupKeyWrite(c->db,key);
     if (zobj == NULL) {
-        // 有序集合不存在，创建新有序集合
+        // 有序集合不存在,创建新有序集合
         if (server.zset_max_ziplist_entries == 0 ||
             server.zset_max_ziplist_value < sdslen(c->argv[3]->ptr))
         {
@@ -143,7 +143,7 @@ void zaddGenericCommand(redisClient *c, int incr) {
         // 关联对象到数据库
         dbAdd(c->db,key,zobj);
     } else {
-        // 对象存在，检查类型
+        // 对象存在,检查类型
         if (zobj->type != REDIS_ZSET) {
             addReply(c,shared.wrongtypeerr);
             goto cleanup;
@@ -173,7 +173,7 @@ void zaddGenericCommand(redisClient *c, int incr) {
                     }
                 }
 
-                // 执行 ZINCRYBY 命令时，
+                // 执行 ZINCRYBY 命令时,
                 // 或者用户通过 ZADD 修改成员的分值时执行
                 if (score != curscore) {
                     // 删除已有元素
@@ -185,10 +185,10 @@ void zaddGenericCommand(redisClient *c, int incr) {
                     updated++;
                 }
             } else {
-                // 元素不存在，直接添加
+                // 元素不存在,直接添加
                 zobj->ptr = zzlInsert(zobj->ptr,ele,score);
 
-                // 查看元素的数量，
+                // 查看元素的数量,
                 // 看是否需要将 ZIPLIST 编码转换为有序集合
                 if (zzlLength(zobj->ptr) > server.zset_max_ziplist_entries)
                     zsetConvert(zobj,REDIS_ENCODING_SKIPLIST);
@@ -232,7 +232,7 @@ void zaddGenericCommand(redisClient *c, int incr) {
                     }
                 }
 
-                // 执行 ZINCRYBY 命令时，
+                // 执行 ZINCRYBY 命令时,
                 // 或者用户通过 ZADD 修改成员的分值时执行
                 if (score != curscore) {
                     // 删除原有元素
@@ -250,7 +250,7 @@ void zaddGenericCommand(redisClient *c, int incr) {
                 }
             } else {
 
-                // 元素不存在，直接添加到跳跃表
+                // 元素不存在,直接添加到跳跃表
                 znode = zslInsert(zs->zsl,score,ele);
                 incrRefCount(ele); /* Inserted in skiplist. */
 

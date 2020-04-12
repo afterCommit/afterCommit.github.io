@@ -13,12 +13,16 @@ tags:                               #标签
 |时间|内容|细节|
 |:------:|:---:|:---:|
 |2020/04/11|||
-|15:30-16:30|leetcode上做题:1.两数之和|使用快慢指针循环遍历方法实现,之后又想是否可以目标和减去第一个小于和的数,再去寻找切片中是否有这个差|
+|15:30-16:30|leetcode1.两数之和|使用快慢指针循环遍历方法实现,之后又想是否可以目标和减去第一个小于和的数,再去寻找切片中是否有这个差|
 |16:30-16:50|解决git报错`ssh_exchange_identification: read: Connection reset by peer`|解决方法`$ rm ~/.ssh/known_hosts`|
-|16:50-20:11|上面的方法无效,全部删除后重新生成,怀疑是之前使用的新英体育公司邮箱的配置无效导致的|尝试的方法<br>`ssh-keygen -t rsa -b 4096 -C "zhangyiming748@gmail.com"`<br>`git config --global user.name "zen"`<br>`git config --global user.email "zhangyiming748@gmail.com"`<br>`ssh-keygen -t rsa -C "zhangyiming748@gmail.com"`<br>`ssh-keygen -t rsa -C 'zhangyiming748@gmail.com'`<br>`ssh -v git@github.com`|
+|16:50-20:11|上面的方法无效,全部删除后重新生成,怀疑是之前使用公司邮箱的配置无效导致的|尝试的方法<br>`ssh-keygen -t rsa -b 4096 -C "zhangyiming748@gmail.com"`<br>`git config --global user.name "zen"`<br>`git config --global user.email "zhangyiming748@gmail.com"`<br>`ssh-keygen -t rsa -C "zhangyiming748@gmail.com"`<br>`ssh-keygen -t rsa -C 'zhangyiming748@gmail.com'`<br>`ssh -v git@github.com`|
 |2020.4.12|||
 |9:37-10:30|了解锁和原子操作的关系||
 |10:59-11:50|了解死锁和活锁||
 |12:00-13:30|了解redis五种数据类型的底层实现||
 |13:30-13:50|整理笔记||
-|17:17-|||
+|17:17-21:08|leetcode29.两数相除|思路:商不可能大于被除数/商一定小于除数|
+|21:08-21:40|解决报错`could not launch process: decoding dwarf section info at offset 0x0: too short`|`git clone https://github.com/derekparker/delve.git $GOPATH/src/github.com/derekparker/delve` 或 `git clone https://github.com/derekparker/delve.git %GOPATH%/src/github.com/derekparker/delve`|
+|21:40-21:50|解决报错` RPC failed; curl 56 OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054`|尝试`git config --global http.sslVerify "false"`和`git config --global  http.postBuffer 524288000`|
+|21:50-23:10|解决依赖问题|`git clone https://github.com/derekparker/delve.git %GOPATH%/src/github.com/derekparker/delve`<br>`git clone https://github.com/cosiner/argv.git %GOPATH%\src\github.com\cosiner\`<br>`git clone https://github.com/cpuguy83/go-md2man.git  %GOPATH%\src\github.com\cpuguy83\go-md2man`<br>`git clone https://github.com/davecgh/go-spew.git %GOPATH%\src\github.com\davecgh\go-spew`<br>`git clone https://github.com/fsnotify/fsnotify.git %GOPATH%\src\github.com\fsnotify\fsnotify`<br>`git clone https://github.com/google/go-dap.git %GOPATH%\src\golang\go-dap`<br>`git clone https://github.com/golang/protobuf.git %GOPATH%\src\golang\protobuf`<br>`git clone https://github.com/hashicorp/golang-lru %GOPATH%\src\hashicorp\golang-lru`<br>`git clone https://github.com/hpcloud/tail %GOPATH%\src\hpcloud\tail`<br>`git clone https://github.com/inconshreveable/mousetrap%GOPATH%\src\inconshreveable\mousetrap`<br>`git clone https://github.com/golang/sync.git %GOPATH%\src\golang.org\x\sync`<br>`git clone https://github.com/golang/xerrors.git %GOPATH%\src\golang\x\xerrors`<br>`git clone https://github.com/golang/arch.git %GOPATH%\src\golang\x\arch`<br>`go get -u gopkg.in/airbrake/gobrake.v2`<br>`go get -u gopkg.in/check.v1`<br>`go get -u gopkg.in/fsnotify.v1`<br>`go get -u gopkg.in/gemnasium/logrus-airbrake-hook.v2`<br>`go get -u gopkg.in/tomb.v1`<br>`go get -u gopkg.in/yaml.v2`<br>`go get -u rsc.io/pdf`<br>`go get -u go.starlark.net`|
+|明日计划|解决其他依赖/完成29题/整理其他redis数据结构||

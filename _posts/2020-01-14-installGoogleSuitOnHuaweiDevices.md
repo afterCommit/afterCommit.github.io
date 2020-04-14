@@ -25,7 +25,12 @@ CET4至今未过
 ----
 
 我的效果图如下
-
-图片后补,我实在是不知道怎么用同一个手机拍同一个手机
+![JpgRQe.jpg](https://s1.ax1x.com/2020/04/14/JpgRQe.jpg)<center>Mate 30 Pro</center>
+![JpgfLd.jpg](https://s1.ax1x.com/2020/04/14/JpgfLd.jpg)<center>Play Store</center>
+![Jpg4eA.jpg](https://s1.ax1x.com/2020/04/14/Jpg4eA.jpg)<center>升级软件</center>
+![JpgWsH.jpg](https://s1.ax1x.com/2020/04/14/JpgWsH.jpg)<center>Youtube</center>
+![JpgcRO.jpg](https://s1.ax1x.com/2020/04/14/JpgcRO.jpg)<center>Youtube Studio</center>
+![JpggzD.jpg](https://s1.ax1x.com/2020/04/14/JpggzD.jpg)<center>Analytics</center>
+![Jpg5dI.jpg](https://s1.ax1x.com/2020/04/14/Jpg5dI.jpg)<center>顺便安装了一个工具手机远程拍摄,照相机是佳能SX710 HS</center>
 
 [视频中涉及到的软件](https://drive.google.com/file/d/169D6Cn0iV-M0dSqn0TL6dds-sMBZCnwV/view?usp=sharing)

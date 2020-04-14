@@ -27,3 +27,5 @@ CET4至今未过
 我的效果图如下
 
 图片后补,我实在是不知道怎么用同一个手机拍同一个手机
+
+[视频中涉及到的软件](https://drive.google.com/file/d/169D6Cn0iV-M0dSqn0TL6dds-sMBZCnwV/view?usp=sharing)

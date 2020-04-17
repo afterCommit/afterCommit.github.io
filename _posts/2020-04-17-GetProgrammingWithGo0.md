@@ -1,305 +1,46 @@
 ---
 layout:     post                    # 使用的布局(不需要改)
-title:     GetProgrammingWithGo             # 标题
+title:     CLion实现远程调试             # 标题
 subtitle:   我是一只被禁足的安小鸟 #副标题
-date:       2020-04-17 00:00:01 GMT+0800             # 时间
+date:       2020-04-17 00:00:08 GMT+0800             # 时间
 author:     Zen                 # 作者
 header-img: img/photo/birdAngle.webp    #这篇文章标题背景图片
 catalog: Ture                   # 是否归档
 tags:                               #标签
-    - 读书
+    - 技巧
 ---
-# 第0单元
-```
-1-1
-package main
 
-import (
-	"fmt"
-)
+由于Windows下的gcc工具实在是不好用,而且由于众所周知的原因,安装起来也是非常的麻烦,因为手头正好有个闲置的树莓派,所以我用了另一种思路,远程调试
 
-func main() {
-	fmt.Println("Hello, playground")
-}
-```
-# 第1单元
-### 第2章
-##### 2-1
-```
-// My weight loss program.
-package main
+2020版的CLion这个功能非常方便
 
-import "fmt"
+以下是我的做法
+----
 
-// main is the function where it all begins.
-func main() {
-	fmt.Print("My weight on the surface of Mars is ")
-	fmt.Print(149.0 * 0.3783)
-	fmt.Print(" lbs, and I would be ")
-	fmt.Print(41 * 365 / 687)
-	fmt.Print(" years old.")
-}
-```
-##### 2-2
-```
-package main
+## 工具
+Windows系统的电脑
 
-import "fmt"
+Jetbrains的Clion
 
-func main() {
-	fmt.Printf("My weight on the surface of Mars is %v lbs,", 149.0*0.3783)
-	fmt.Printf(" and I would be %v years old.\n", 41*365/687)
-	fmt.Printf("My weight on the surface of %v is %v lbs.\n", "Earth", 149.0)
-	fmt.Printf("%-15v $%4v\n", "SpaceX", 94)
-	fmt.Printf("%-15v $%4v\n", "Virgin Galactic", 100)
-}
-//%4v左边填充四个空格
-//%-4v右边填充四个空格
-```
-##### 2-3
-```
-// How long does it take to get to Mars?
-package main
+树莓派3B
 
-import "fmt"
+局域网环境
 
-func main() {
-	const lightSpeed = 299792 // km/s
-	var distance = 56000000   // km
+## 步骤
 
-	fmt.Println(distance/lightSpeed, "seconds")
+#### 新建一个带远程调试的工具链
 
-	distance = 401000000
-	fmt.Println(distance/lightSpeed, "seconds")
-}
-//const定义的值不能被重新赋值
-//var hour,minute = 24,60 可以连续赋值
-```
-##### 2-4
-```
-package main
+1. file➡Settings➡Build,Execution,Deployment➡Toolchains点击左侧加号新建连接
+2. 从下拉菜单选择Remote Host并点击Credentials右侧的齿轮图标配置远端连接，在打开的对话框中，将ssh的用户名密码配置进去以登录远端机器
 
-func main() {
-	var weight = 149.0
-	weight = weight * 0.3783
-	weight *= 0.3783
+![JZz2NT.png](https://s1.ax1x.com/2020/04/17/JZz2NT.png)
 
-}
-```
-##### 2-5
-```
-package main
+#### 建立相应CMake文件
 
-func main() {
-    var age = 41
-    age = age + 1
-    age += 1
-    age++
-}
-//不支持前置运算++i
-```
-##### 2-6
-```
-package main
+1. file➡Settings➡Build,Execution,Deployment➡cmake点击加号新建一个cmake配置
 
-import (
-	"fmt"
-	"math/rand"
-)
+![JZzR4U.png](https://s1.ax1x.com/2020/04/17/JZzR4U.png)
 
-func main() {
-	var num = rand.Intn(10) + 1
-	fmt.Println(num)
+## 效果
 
-	num = rand.Intn(10) + 1
-	fmt.Println(num)
-}
-//Intn(10)指的是0-9
-```
-##### 实验
-```
-package main
-
-import (
-	"fmt"
-	_ "log"
-)
-
-const (
-	DISTANCE   = 56000000
-	HOURPERDAY = 24
-	DAY        = 28
-)
-
-func myAnswer() {
-	fmt.Println(DISTANCE / (DAY * HOURPERDAY))
-}
-func main() {
-	myAnswer()
-	answer()
-}
-func answer() {
-	fmt.Printf("%v", 56000000/(24*28))
-}
-```
-### 第3章
-##### 3-1
-```
-package main
-
-import (
-	"fmt"
-	"strings"
-)
-
-func main() {
-	fmt.Println("You find yourself in a dimly lit cavern.")
-
-	var command = "walk outside"
-	var exit = strings.Contains(command, "outside")
-
-	fmt.Println("You leave the cave:", exit)
-}
-// Contains 判断字符串 s 中是否包含子串 substr
-// 如果 substr 为空，则返回 true
-```
-##### 3-2
-```
-package main
-
-import "fmt"
-
-func main() {
-	fmt.Println("There is a sign near the entrance that reads 'No Minors'.")
-
-	var age = 41
-	var minor = age < 18
-
-	fmt.Printf("At age %v, am I a minor? %v\n", age, minor)
-}
-```
-##### 3-3
-```
-package main
-
-import "fmt"
-
-func main() {
-	var command = "go east"
-
-	if command == "go east" {
-		fmt.Println("You head further up the mountain.")
-	} else if command == "go inside" {
-		fmt.Println("You enter the cave where you live out the rest of your life.")
-	} else {
-		fmt.Println("Didn't quite get that.")
-	}
-}
-```
-##### 3-4
-```
-package main
-
-import "fmt"
-
-func main() {
-	fmt.Println("The year is 2100, should you leap?")
-
-	var year = 2100
-	var leap = year%400 == 0 || (year%4 == 0 && year%100 != 0)
-
-	if leap {
-		fmt.Println("Look before you leap!")
-	} else {
-		fmt.Println("Keep your feet on the ground.")
-	}
-}
-
-```
-##### 3-5
-`||`或
-`&&`与
-`!`非
-```
-package main
-
-import "fmt"
-
-func main() {
-	var haveTorch = true
-	var litTorch = false
-
-	if !haveTorch || !litTorch {
-		fmt.Println("Nothing to see here.")
-	}
-}
-```
-##### 3-6
-```
-package main
-
-import "fmt"
-
-func main() {
-	fmt.Println("There is a cavern entrance here and a path to the east.")
-	var command = "go inside"
-
-	switch command {
-	case "go east":
-		fmt.Println("You head further up the mountain.")
-	case "enter cave", "go inside":
-		fmt.Println("You find yourself in a dimly lit cavern.")
-	case "read sign":
-		fmt.Println("The sign reads 'No Minors'.")
-	default:
-		fmt.Println("Didn't quite get that.")
-	}
-}
-```
-##### 3-7
-```
-package main
-
-import "fmt"
-
-func main() {
-	var room = "lake"
-
-	switch {
-	case room == "cave":
-		fmt.Println("You find yourself in a dimly lit cavern.")
-	case room == "lake":
-		fmt.Println("The ice seems solid enough.")
-		fallthrough
-	case room == "underwater":
-		fmt.Println("The water is freezing cold.")
-	}
-}
-```
-##### 3-8
-```
-package main
-
-import (
-	"fmt"
-	"time"
-)
-
-func main() {
-	var count = 10
-
-	for count > 0 {
-		fmt.Println(count)
-		time.Sleep(time.Second)
-		count--
-	}
-	fmt.Println("Liftoff!")
-}
-```
-# 第2单元
-# 第3单元
-# 第4单元
-# 第5单元
-# 第6单元
-# 第7单元
-### 第章
+![JZzgEV.png](https://s1.ax1x.com/2020/04/17/JZzgEV.png)

@@ -26,17 +26,39 @@ tags:                               #标签
 |21:40-21:50|解决报错` RPC failed; curl 56 OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054`|尝试`git config --global http.sslVerify "false"`和`git config --global  http.postBuffer 524288000`|
 |21:50-23:10|解决依赖问题|`git clone https://github.com/derekparker/delve.git %GOPATH%/src/github.com/derekparker/delve`<br>`git clone https://github.com/cosiner/argv.git %GOPATH%\src\github.com\cosiner\`<br>`git clone https://github.com/cpuguy83/go-md2man.git  %GOPATH%\src\github.com\cpuguy83\go-md2man`<br>`git clone https://github.com/davecgh/go-spew.git %GOPATH%\src\github.com\davecgh\go-spew`<br>`git clone https://github.com/fsnotify/fsnotify.git %GOPATH%\src\github.com\fsnotify\fsnotify`<br>`git clone https://github.com/google/go-dap.git %GOPATH%\src\golang\go-dap`<br>`git clone https://github.com/golang/protobuf.git %GOPATH%\src\golang\protobuf`<br>`git clone https://github.com/hashicorp/golang-lru %GOPATH%\src\hashicorp\golang-lru`<br>`git clone https://github.com/hpcloud/tail %GOPATH%\src\hpcloud\tail`<br>`git clone https://github.com/inconshreveable/mousetrap%GOPATH%\src\inconshreveable\mousetrap`<br>`git clone https://github.com/golang/sync.git %GOPATH%\src\golang.org\x\sync`<br>`git clone https://github.com/golang/xerrors.git %GOPATH%\src\golang\x\xerrors`<br>`git clone https://github.com/golang/arch.git %GOPATH%\src\golang\x\arch`<br>`go get -u gopkg.in/airbrake/gobrake.v2`<br>`go get -u gopkg.in/check.v1`<br>`go get -u gopkg.in/fsnotify.v1`<br>`go get -u gopkg.in/gemnasium/logrus-airbrake-hook.v2`<br>`go get -u gopkg.in/tomb.v1`<br>`go get -u gopkg.in/yaml.v2`<br>`go get -u rsc.io/pdf`<br>`go get -u go.starlark.net`|
 |明日计划|解决其他依赖/完成29题/整理其他redis数据结构||
+|2020.4.13|||
 |15:00-16:49|leetcode29题负数问题||
 |16:49|提交提示超出时间限制|重写|
 |18:37|测试用例中包含奇怪的值|代码有问题|
 |20:31|安装之前未安装的依赖||
+|2020.4.14|||
 |10:00|继续做题||
 |17:00|看答案之后重新做||
 |20:00|了解golang的channel用法||
+<<<<<<< HEAD
+|2020.4.11|||
+|9:00-11:30|看答案/按照思路独立做/改成自己理解的方式||
+|14:00-17:00|看推荐代码||
+|17:00-19:00|看redis的string底层实现||
+|明日计划|买的golang基础的书到了 看书||
+|9:30-12:34|解决goland激活问题||
+=======
 |2020/04/16|||
+<<<<<<< HEAD
 |9:00-11:00|leetcode7.整数反转|按照自己的思路做没成功需要进一步了解数据类型的相互转换|
 |11:00-12:00|研究goProxy|gomod需要GoProxy自动解决go get依赖否则需要git clone|
 |14:00-19-00|看《Go语言趣学指南》书|第一章|
 |20:30-22:00|看推荐代码|按照流程过一遍|
 |明日计划|继续做题|看书第二章|画推荐系统代码流程图||
 ||||
+=======
+|9:00-11:00|leetcode7.整数反转|按照自己的思路做没成功|
+|11:00-12:00|研究goProxy||
+|14:00-19-00|看书||
+|20:30-22:00|看推荐代码||
+|明日计划|继续做题看书画代码流程图||
+|2020/04/17|||
+|9:30-11:30|解决Goland激活问题||
+|14:00-20:33|看书第二章/研究goproxy并开启/研究远程调试||
+|20:46|看书第二章||
+>>>>>>> a20b1d6114028a6b90a1b2a36f5bcf54accbe416

@@ -11,9 +11,10 @@ tags:                               #标签
 ---
 
 暂时只测试过PyCharm/CLion/GoLand/DataGrip,绝对能用
-效果图
+
 **如果不是首次安装或者之前用过其他激活工具尤其是在./bin或./lib目录下一定要先清除,否则会激活失败**
 ----
+
 ## 下载激活补丁
 
 [jar包下载](https://drive.google.com/open?id=1b24kOvPutninO-Az2zT0JqWDICWJbMLs)

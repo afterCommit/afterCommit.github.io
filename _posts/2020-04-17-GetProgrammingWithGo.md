@@ -9,114 +9,8 @@ catalog: Ture                   # 是否归档
 tags:                               #标签
     - 读书
 ---
-# 第0单元
-```
-1-1
-package main
 
-import (
-	"fmt"
-)
-
-func main() {
-	fmt.Println("Hello, playground")
-}
-```
-# 第1单元
-### 第2章
-##### 2-1
-```
-// My weight loss program.
-package main
-
-import "fmt"
-
-// main is the function where it all begins.
-func main() {
-	fmt.Print("My weight on the surface of Mars is ")
-	fmt.Print(149.0 * 0.3783)
-	fmt.Print(" lbs, and I would be ")
-	fmt.Print(41 * 365 / 687)
-	fmt.Print(" years old.")
-}
-```
-##### 2-2
-```
-package main
-
-import "fmt"
-
-func main() {
-	fmt.Printf("My weight on the surface of Mars is %v lbs,", 149.0*0.3783)
-	fmt.Printf(" and I would be %v years old.\n", 41*365/687)
-	fmt.Printf("My weight on the surface of %v is %v lbs.\n", "Earth", 149.0)
-	fmt.Printf("%-15v $%4v\n", "SpaceX", 94)
-	fmt.Printf("%-15v $%4v\n", "Virgin Galactic", 100)
-}
-//%4v左边填充四个空格
-//%-4v右边填充四个空格
-```
-##### 2-3
-```
-// How long does it take to get to Mars?
-package main
-
-import "fmt"
-
-func main() {
-	const lightSpeed = 299792 // km/s
-	var distance = 56000000   // km
-
-	fmt.Println(distance/lightSpeed, "seconds")
-
-	distance = 401000000
-	fmt.Println(distance/lightSpeed, "seconds")
-}
-//const定义的值不能被重新赋值
-//var hour,minute = 24,60 可以连续赋值
-```
-##### 2-4
-```
-package main
-
-func main() {
-	var weight = 149.0
-	weight = weight * 0.3783
-	weight *= 0.3783
-
-}
-```
-##### 2-5
-```
-package main
-
-func main() {
-    var age = 41
-    age = age + 1
-    age += 1
-    age++
-}
-//不支持前置运算++i
-```
-##### 2-6
-```
-package main
-
-import (
-	"fmt"
-	"math/rand"
-)
-
-func main() {
-	var num = rand.Intn(10) + 1
-	fmt.Println(num)
-
-	num = rand.Intn(10) + 1
-	fmt.Println(num)
-}
-//Intn(10)指的是0-9
-```
-##### 实验
+### 第2章 实验
 ```
 package main
 
@@ -142,164 +36,165 @@ func answer() {
 	fmt.Printf("%v", 56000000/(24*28))
 }
 ```
-### 第3章
-##### 3-1
+### 第3章 实验
+```
+func myAnswer() {
+	num := rand.Intn(100) + 1
+	var guess int
+
+
+	for {
+		log.Println("input a num")
+		_,_=fmt.Scan(&guess)
+		if guess>num {
+			fmt.Println("more than answer")
+			continue
+		}else if guess<num {
+			fmt.Println("less than answer")
+			continue
+		}else {
+			fmt.Println("right answers")
+			return
+		}
+	}
+
+}
+```
+### 第4章 实验
 ```
 package main
 
 import (
 	"fmt"
-	"strings"
+	"math/rand"
 )
 
-func main() {
-	fmt.Println("You find yourself in a dimly lit cavern.")
+var era = "AD"
 
-	var command = "walk outside"
-	var exit = strings.Contains(command, "outside")
+func myAnswer() {
+	for i := 0; i < 10; i++ {
+		year := rand.Intn(2020) + 1
+		month := rand.Intn(12) + 1
+		daysInMonth := 31
+		leap := isLeapYear(year)
+		switch leap {
+		case true:
+			if month == 2 {
+				daysInMonth = 28
+			}
 
-	fmt.Println("You leave the cave:", exit)
-}
-// Contains 判断字符串 s 中是否包含子串 substr
-// 如果 substr 为空，则返回 true
-```
-##### 3-2
-```
-package main
+		case false:
+			daysInMonth = 30
+		}
 
-import "fmt"
+		day := rand.Intn(daysInMonth) + 1
 
-func main() {
-	fmt.Println("There is a sign near the entrance that reads 'No Minors'.")
-
-	var age = 41
-	var minor = age < 18
-
-	fmt.Printf("At age %v, am I a minor? %v\n", age, minor)
-}
-```
-##### 3-3
-```
-package main
-
-import "fmt"
-
-func main() {
-	var command = "go east"
-
-	if command == "go east" {
-		fmt.Println("You head further up the mountain.")
-	} else if command == "go inside" {
-		fmt.Println("You enter the cave where you live out the rest of your life.")
-	} else {
-		fmt.Println("Didn't quite get that.")
+		fmt.Println(era, year, month, day)
 	}
+
 }
-```
-##### 3-4
-```
-package main
-
-import "fmt"
-
-func main() {
-	fmt.Println("The year is 2100, should you leap?")
-
-	var year = 2100
-	var leap = year%400 == 0 || (year%4 == 0 && year%100 != 0)
-
-	if leap {
-		fmt.Println("Look before you leap!")
-	} else {
-		fmt.Println("Keep your feet on the ground.")
+func isLeapYear(year int) bool {
+	if year%400 == 0 || (year%4 == 0 && year%100 != 0) {
+		return true
 	}
-}
-
-```
-##### 3-5
-`||`或
-`&&`与
-`!`非
-```
-package main
-
-import "fmt"
-
-func main() {
-	var haveTorch = true
-	var litTorch = false
-
-	if !haveTorch || !litTorch {
-		fmt.Println("Nothing to see here.")
-	}
+	return false
 }
 ```
-##### 3-6
-```
-package main
-
-import "fmt"
-
-func main() {
-	fmt.Println("There is a cavern entrance here and a path to the east.")
-	var command = "go inside"
-
-	switch command {
-	case "go east":
-		fmt.Println("You head further up the mountain.")
-	case "enter cave", "go inside":
-		fmt.Println("You find yourself in a dimly lit cavern.")
-	case "read sign":
-		fmt.Println("The sign reads 'No Minors'.")
-	default:
-		fmt.Println("Didn't quite get that.")
-	}
-}
-```
-##### 3-7
-```
-package main
-
-import "fmt"
-
-func main() {
-	var room = "lake"
-
-	switch {
-	case room == "cave":
-		fmt.Println("You find yourself in a dimly lit cavern.")
-	case room == "lake":
-		fmt.Println("The ice seems solid enough.")
-		fallthrough
-	case room == "underwater":
-		fmt.Println("The water is freezing cold.")
-	}
-}
-```
-##### 3-8
+### 第5章 实验
 ```
 package main
 
 import (
 	"fmt"
-	"time"
+	"math/rand"
 )
 
-func main() {
-	var count = 10
+const (
+	secondsPerDay = 86400
+)
 
-	for count > 0 {
-		fmt.Println(count)
-		time.Sleep(time.Second)
-		count--
+func ticket() {
+
+	var (
+		distance int
+		company  string
+		trip     string
+	)
+	fmt.Println("Spaceline\tDays\tTrip\tType\tPrice")
+	fmt.Println("==================================")
+	for count := 0; count < 10; count++ {
+		switch rand.Intn(3) {
+		case 0:
+			company = "Intel"
+		case 1:
+			company = "AMD"
+		case 2:
+			company = "Nvidia"
+		}
 	}
-	fmt.Println("Liftoff!")
+	speed := rand.Intn(15) + 16
+	duration := distance / speed / secondsPerDay
+	price := 20.0 + speed
+	if rand.Intn(2) == 1 {
+		trip = "Round-trip"
+		price = price * 2
+	}else {
+		trip="One-way"
+	}
+	fmt.Println(company,duration,trip,price)
+}
+func main(){
+	ticket()
 }
 ```
-# 第2单元
-# 第3单元
-# 第4单元
-# 第5单元
-# 第6单元
-# 第7单元
-### 第章
+### 第6章 实验
+```
+package main
+
+import (
+	"fmt"
+	"math/rand"
+)
+
+func piggy(x, y float64) float64 {
+	//存入
+	fmt.Println(x)
+	//现有
+	fmt.Println(y)
+	//存后
+	return x + y
+}
+func main() {
+	money := make(map[int]float64, 0)
+	money[0] = 0.05
+	money[1] = 0.10
+	money[2] = 0.25
+	var kind int
+	//var once float64
+	var totol float64
+	for {
+		kind = rand.Intn(3)
+
+		if totol >= 20.00 {
+			break
+		} else {
+			totol = totol + piggy(money[kind], totol)
+		}
+	}
+	fmt.Printf("final%v", totol)
+}
+
+```
+
+### 第章 实验
+### 第章 实验
+### 第章 实验
+### 第章 实验
+### 第章 实验
+### 第章 实验
+### 第章 实验
+### 第章 实验
+### 第章 实验
+### 第章 实验
+### 第章 实验
+### 第章 实验

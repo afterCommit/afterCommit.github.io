@@ -330,10 +330,107 @@ func input(s string)(bool)  {
 }
 ```
 ### 第11章 实验
+```
+package main
+
+import (
+	"fmt"
+	"strings"
+)
+
+func decipher() {
+	cipherText := "CSOITEUIWUIZNSROCNKFD"
+	keyword := "GOLANG"
+	message := ""
+	keyIndex := 0
+	for i := 0; i < len(cipherText); i++ {
+		c := cipherText[i] - 'A'
+		k := keyword[keyIndex] - 'A'
+
+		c = (c-k+26)%26 + 'A'
+		message += string(c)
+		keyIndex++
+		keyIndex %= len(keyword)
+	}
+	fmt.Println(message)
+
+}
+func cipher() {
+	message := "WEDIGYOULUVTHEGOPHERS"
+	keyword := "GOLANG"
+	keyIndex := 0
+	cipherText := ""
+	message = strings.ToUpper(strings.Replace(message, " ", "", -1))
+	keyword = strings.ToUpper(strings.Replace(message, " ", "", -1))
+	for i := 0; i < len(message); i++ {
+		c := message[i]
+		if c >= 'A' && c <= 'Z' {
+			c -= 'A'
+			k := keyword[keyIndex] - 'A'
+			c = (c+k)%26 + 'A'
+			keyIndex++
+			keyIndex %= len(keyword)
+		}
+		cipherText += string(c)
+	}
+	fmt.Println(cipherText)
+}
+func main() {
+	decipher()
+	cipher()
+}
+```
 ### 第12章 实验
+```
+func kelvin2Celsius(k float64) float64 {
+	return k-273.15
+}
+
+func Celsius2kelvin(c float64)float64{
+	return (c*9.0/5.0)+32.0
+}
+```
 ### 第13章 实验
+```
+type celsius float64
+type fahrenheit float64
+type kelvin float64
+func (c celsius) fahrenheit() fahrenheit {
+	return fahrenheit((c*9.0/5.0)+32.0)
+}
+func (c celsius)kelvin()kelvin{
+	return kelvin(c+273.15)
+}
+func(f fahrenheit)celsius()celsius{
+	return celsius((f-32.0)*5.0/9.0)
+}
+func (f fahrenheit) kelvin()kelvin  {
+	return f.celsius().kelvin()
+}
+func(k kelvin)celsius()celsius{
+	return celsius(k-273.15)
+}
+func(k kelvin)fahrenheit()fahrenheit{
+	return k.celsius().fahrenheit()
+}
+```
 ### 第14章 实验
+
 ### 第15章 实验
 ### 第16章 实验
 ### 第17章 实验
+```
+type StringSlice []string
+
+func terraform(s StringSlice)StringSlice{
+	sort.Strings(s)
+
+	return s
+}
+
+func main() {
+	s:=[]string{"mars","uranus","neptune"}
+	s = terraform(s)
+	fmt.Println(s)
+}```
 ### 第18章 实验

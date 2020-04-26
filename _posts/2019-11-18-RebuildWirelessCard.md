@@ -192,16 +192,39 @@ SN填机器的SN号
 
 已知部分MODELID如下
 
-|型号|值|效果图|
-|:---:|:---:|:---:|
-|MateBook D (2018)|00000505|![MateBook D](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/MateBook_D.jpg)|
-|MagicBook|00000803/00000800|![MagicBook](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/MagicBook.jpg)|
-|MateBook X Pro|00000506||
-|MagicBook Ryzen|00000803|![MagicBook](https://raw.githubusercontent.com/zhangyiming748/zhangyiming748.github.io/master/img/Honor/MagicBook.jpg)|
-|MateBook D(2018)|00000505||
-|MateBook X Pro|00000506||
-|MateBook 13|00000507||
-|MateBook 14|00000507||
+<center>MateBook系列</center>
+
+|型号|值|
+|:---:|:--:|
+|MateBook|0500|
+|Matebook|0501|
+|Matebook X|0502|
+|Matebook D|0503|
+|Matebook E|0504|
+|Matebook D(2018)|0505|
+|Matebook X Pro|0506|
+|Matebook 13|0507|
+|Matebook 14|0508|
+|Matebook 15|0509|
+|Matebook E|0510|
+|Matebook|0511|
+|Matebook|0512|
+
+<center>MagicBook系列</center>
+
+|型号|值|
+|:---:|:--:|
+|MagicBook|0800|
+|MagicBook 2019|0801|
+|MagicBook|0802|
+|MagicBook|0803|
+|MagicBook Pro|0804|
+|MagicBook|0805|
+|MagicBook|0806|
+|MagicBook|0807|
+|MagicBook Pro|0808|
+|MagicBook|0809|
+|MagicBook|0810|
 
 MAC填芯片的bluetooth地址而不是网卡地址,虽然这俩东西在一张PCB上
 

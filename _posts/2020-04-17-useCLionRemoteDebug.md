@@ -31,7 +31,7 @@ Jetbrains的Clion
 #### 新建一个带远程调试的工具链
 
 1. file➡Settings➡Build,Execution,Deployment➡Toolchains点击左侧加号新建连接
-2. 从下拉菜单选择Remote Host并点击Credentials右侧的齿轮图标配置远端连接，在打开的对话框中，将ssh的用户名密码配置进去以登录远端机器
+2. 从下拉菜单选择Remote Host并点击Credentials右侧的齿轮图标配置远端连接,在打开的对话框中,将ssh的用户名密码配置进去以登录远端机器
 
 ![JZz2NT.png](https://s1.ax1x.com/2020/04/17/JZz2NT.png)
 
